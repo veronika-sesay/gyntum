@@ -1,0 +1,47 @@
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: rgb(0, 125, 158);
+  color: white;
+  width: 100%;
+  padding: 0 0.5rem;
+}
+
+.main-content {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 5%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(0, 125, 158);
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 105, 138);
+  transform: scale(1.05);
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
