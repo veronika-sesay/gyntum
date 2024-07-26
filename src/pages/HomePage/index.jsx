@@ -17,7 +17,10 @@ export const HomePage = () => {
           <p className="bold">
             Během letních prázdnin je v pondělí ordinační doba od 9:00 do 16:00.
           </p>
-          <p className="bold"> 5. - 16.8. neordinujeme z důvodu dovolené.</p>
+          <p className="bold">5. - 16.8. neordinujeme z důvodu dovolené:</p>
+          <p>5. - 9.8. zastupuje MUDr. Šmrhová</p>
+          <p>12. - 16. 8. zastupuje MUDr. Čmuchová</p>
+
           <p>
             Naše ordinace nyní používá pro zabezpečenou komunikaci s pacienty
             virtuální sestru Emmy. Emmy nahrazuje email a do velké míry i
