@@ -6,6 +6,7 @@ export const HomePage = () => {
       <header>
         <div className="header-row">
           <p>Kpt. Jaroše 2876, 390 03 Tábor</p>
+           <p>info@gyntum.cz</p>
           <p>+420 732 726 631</p>
         </div>
       </header>
