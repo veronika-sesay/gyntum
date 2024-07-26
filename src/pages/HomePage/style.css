@@ -6,7 +6,7 @@ h1 {
 
 .header-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 4rem;
   background-color: rgb(0, 125, 158);
@@ -44,4 +44,10 @@ button:hover {
 button a {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header-row {
+    flex-direction: column;
+  }
 }
