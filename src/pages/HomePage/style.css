@@ -1,53 +1,220 @@
-h1 {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 1rem;
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
-.header-row {
+.logo {
+  margin: 0 auto;
+}
+
+.nav-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 4rem;
-  background-color: rgb(0, 125, 158);
-  color: white;
-  width: 100%;
-  padding: 0 0.5rem;
-}
-
-.main-content {
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
-  padding: 5%;
 }
 
-.bold {
-  font-weight: bold;
-}
-
-button {
-  background-color: rgb(0, 125, 158);
-  color: white;
-  border: none;
-  border-radius: 0.25rem;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: rgb(0, 105, 138);
-  transform: scale(1.05);
-}
-
-button a {
-  color: white;
+nav a {
+  margin: 0.5rem 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--eerie-black);
   text-decoration: none;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+  font-size: 1.4rem;
+  color: var(--murrey);
+}
+
+.emmy {
+  background-color: var(--murrey);
+  border: 1px solid var(--murrey);
+  border-radius: 12px;
+  padding: 0.3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.emmy a {
+  color: var(--misty-rose);
+  margin: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.emmy:hover,
+.emmy:active,
+.emmy:focus {
+  background-color: var(--misty-rose);
+  border: 1px solid var(--misty-rose);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.2);
+  color: var(--gunmetal);
+}
+
+.emmy a:hover,
+.emmy a:active,
+.emmy a:focus {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--gunmetal);
+}
+
+.menu-mobile-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: space-evenly;
+  align-items: center;
+  min-width: 100%;
+}
+
+.menu-mobile-container--closed {
+  display: none;
+}
+
+.nav-btn {
+  width: 3rem;
+  height: 3rem;
+  background-image: url('../../../public/img/hamburger-menu.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 10%;
+  cursor: pointer;
+  border: none;
+}
+
+.nav-btn--closed {
+  display: none;
+}
+
+.nav-mobile {
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 98;
+}
+
+.nav-mobile a {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--eerie-black);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  z-index: 98;
+}
+
+.menu-mobile-container a:hover,
+.menu-mobile-container a:active,
+.menu-mobile-container a:focus {
+  border-bottom: 1px solid var(--text);
+}
+
+@media (max-width: 540px) {
+  body {
+    padding: 2%;
+  }
+
+  .emmy {
+    padding: 0.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .emmy a {
+    margin: 0.3rem;
+    font-weight: 500;
+  }
+
+  .emmy a:hover,
+  .emmy a:active,
+  .emmy a:focus {
+    font-size: 0.75rem;
+    transform: none;
+  }
+}
+
+@media (min-width: 541px) {
+  .emmy a:hover,
+  .emmy a:active,
+  .emmy a:focus {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
-  .header-row {
+  .menu-container {
+    display: none;
+  }
+
+  .logo {
+    max-width: 70%;
+  }
+
+  .nav-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  .emmy a {
+    color: var(--misty-rose);
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-mobile-container {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .emmy a:hover,
+  .emmy a:active,
+  .emmy a:focus {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  nav a:hover,
+  nav a:active,
+  nav a:focus {
+    font-size: 1.6rem;
+  }
+
+  .emmy a:hover,
+  .emmy a:active,
+  .emmy a:focus {
+    font-size: 1.6rem;
   }
 }

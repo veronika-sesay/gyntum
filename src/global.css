@@ -1,35 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-html {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-}
-
-.atkinson-hyperlegible-regular {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.atkinson-hyperlegible-bold {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.atkinson-hyperlegible-regular-italic {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.atkinson-hyperlegible-bold-italic {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  font-weight: 700;
-  font-style: italic;
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 :root {
@@ -39,8 +18,28 @@ html {
   --eerie-black: #1b2021ff;
   --murrey: #89023eff;
   --background: linear-gradient(
-    225deg,
-    hsla(0, 0%, 100%, 1) 30%,
-    hsla(358, 100%, 93%, 1) 100%
-  );
+      225deg,
+      hsla(0, 0%, 100%, 1) 10%,
+      hsla(358, 100%, 93%, 1) 100%
+    )
+    no-repeat center center fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 5%;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: var(--background);
+  background-size: cover;
+  color: var(--eerie-black);
 }
