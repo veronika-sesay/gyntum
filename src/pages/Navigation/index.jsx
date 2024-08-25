@@ -8,6 +8,20 @@ export const Navigation = () => {
 
   return (
     <>
+      <div className="top-row">
+        <div className="top-row__item">
+          <img className="icon" src="../img/address.svg" alt="address icon" />
+          <p>Kpt. Jaroše 2876, 390&nbsp;03&nbsp;Tábor</p>
+        </div>
+        <div className="top-row__item">
+          <img className="icon" src="../img/phone.svg" alt="phone icon" />
+          <a href="tel:+420732726631">+420 732 726 631</a>
+        </div>
+        <div className="top-row__item">
+          <img className="icon" src="../img/email.svg" alt="email icon" />
+          <a href="mailto:info@gyntum.cz">info@gyntum.cz</a>
+        </div>
+      </div>
       <div className="menu-container">
         <Link to="/home">
           <img src="../img/logo.svg" alt="logo" className="logo" />
