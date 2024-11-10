@@ -6,4 +6,64 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  /*Murrey shades*/
+  --murrey: #89023eff;
+  --quinacridone-magenta: #9d2c5eff;
+  --china-rose: #b0567eff;
+  --puce: #c4819fff;
+  --pink-lavender: #d8abbfff;
+  --mimi-pink: #ebd5dfff;
+
+  /*Mint shades*/
+  --dark-cyan: #418b85ff;
+  --verdigris: #619e99ff;
+  --cambridge-blue: #80b2aeff;
+  --ash-gray: #a0c5c2ff;
+  --light-blue: #c0d8d6ff;
+  --azure-web: #dfecebff;
+
+  /*Seasalt shades*/
+  --seasalt: #f7f9f9ff;
+  --seasalt-2: #fafbfb;
+  --off-white: #fcfdfdff;
+
+  /* black */
+  --eerie-black: #1b2021ff;
+
+  /* breakpoints */
+  --xs: 0;
+  --sm: 600px;
+  --md: 1024px;
+  --lg: 1600px;
+  --xl: 2048px;
+
+  /* container max-width */
+  --mw-xs: 480px;
+  --mw-sm: 960px;
+  --mw-md: 1280px;
+  --mw-lg: 1920px;
+  --mw-xl: 3840px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: var(--seasalt-2);
+  color: var(--eerie-black);
 }
