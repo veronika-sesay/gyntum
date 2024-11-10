@@ -14,17 +14,43 @@ body {
 }
 
 :root {
-  --gunmetal: #30343fff;
-  --blush: #ea638cff;
-  --misty-rose: #ffd9daff;
-  --eerie-black: #1b2021ff;
+  /*Murrey shades*/
   --murrey: #89023eff;
-  --background: linear-gradient(
-      225deg,
-      hsla(0, 0%, 100%, 1) 10%,
-      hsla(358, 100%, 93%, 1) 100%
-    )
-    no-repeat center center fixed;
+  --quinacridone-magenta: #9d2c5eff;
+  --china-rose: #b0567eff;
+  --puce: #c4819fff;
+  --pink-lavender: #d8abbfff;
+  --mimi-pink: #ebd5dfff;
+
+  /*Mint shades*/
+  --dark-cyan: #418b85ff;
+  --verdigris: #619e99ff;
+  --cambridge-blue: #80b2aeff;
+  --ash-gray: #a0c5c2ff;
+  --light-blue: #c0d8d6ff;
+  --azure-web: #dfecebff;
+
+  /*Seasalt shades*/
+  --seasalt: #f7f9f9ff;
+  --seasalt-2: #fafbfb;
+  --off-white: #fcfdfdff;
+
+  /* black */
+  --eerie-black: #1b2021ff;
+
+  /* breakpoints */
+  --xs: 0;
+  --sm: 600px;
+  --md: 1024px;
+  --lg: 1600px;
+  --xl: 2048px;
+
+  /* container max-width */
+  --br-xs: 480px;
+  --br-sm: 960px;
+  --br-md: 1280px;
+  --br-lg: 1920px;
+  --br-xl: 3840px;
 }
 
 h1,
@@ -41,7 +67,6 @@ body {
   padding: 0;
   font-size: 1rem;
   line-height: 1.5;
-  background: var(--background);
-  background-size: cover;
+  background-color: var(--seasalt-2);
   color: var(--eerie-black);
 }
