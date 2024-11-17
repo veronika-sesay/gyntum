@@ -32,25 +32,26 @@ body {
 
   /*Seasalt shades*/
   --seasalt: #f7f9f9ff;
-  --seasalt-2: #fafbfb;
+  --salt: #fafbfb;
   --off-white: #fcfdfdff;
 
   /* black */
   --eerie-black: #1b2021ff;
 
   /* breakpoints */
-  --xs: 0;
-  --sm: 600px;
-  --md: 1024px;
+  --xs: 540px;
+  --sm: 768px;
+  --md: 1280px;
   --lg: 1600px;
   --xl: 2048px;
 
   /* container max-width */
   --br-xs: 480px;
-  --br-sm: 960px;
-  --br-md: 1280px;
-  --br-lg: 1920px;
-  --br-xl: 3840px;
+  --br-sm: 615px;
+  --br-md: 1024px;
+  --br-lg: 1280px;
+  --br-xl: 1400px;
+  --br-xxl: 1600px;
 }
 
 h1,
@@ -67,6 +68,45 @@ body {
   padding: 0;
   font-size: 1rem;
   line-height: 1.5;
-  background-color: var(--seasalt-2);
+  background-color: var(--salt);
   color: var(--eerie-black);
+}
+
+.container {
+  margin: 1rem auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    max-width: var(--br-sm);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .container {
+    width: 80%;
+    max-width: var(--br-md);
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .container {
+    width: 75%;
+    max-width: var(--br-lg);
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 2048px) {
+  .container {
+    width: 70%;
+    max-width: var(--br-xl);
+  }
+}
+
+@media (min-width: 2049px) {
+  .container {
+    width: 65%;
+    max-width: var(--br-xxl);
+  }
 }
