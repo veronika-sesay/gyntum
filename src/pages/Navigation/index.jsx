@@ -22,8 +22,8 @@ export const Navigation = () => {
           <a href="mailto:info@gyntum.cz">info@gyntum.cz</a>
         </div>
       </div>
-      <div className="menu-section">
-        <div className="menu container">
+      <div className="menu container">
+        <div className="menu-desktop">
           <Link to="/home">
             <img className="logo" src="../img/logo-image.svg" alt="logo" />
           </Link>
@@ -31,10 +31,10 @@ export const Navigation = () => {
             <Link to="/news">Aktuality</Link>
             <Link to="/about">O nás</Link>
             <Link to="/contacts">Kontakty</Link>
-            <button className="emmy">
+            <div className="emmy">
               {' '}
               <Link to="/">Virtuální sestra Emmy</Link>
-            </button>
+            </div>
           </nav>
         </div>
 

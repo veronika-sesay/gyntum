@@ -33,6 +33,18 @@
   opacity: 0.9;
 }
 
+.main-pink {
+  background-color: rgba(235, 213, 223, 0.3); /* mimi-pink */
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  max-height: 640px;
+}
+
 @media (max-width: 768px) {
   .content {
     flex-direction: column-reverse;
