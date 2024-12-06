@@ -28,12 +28,15 @@ export const Navigation = () => {
             <img className="logo" src="../img/logo-image.svg" alt="logo" />
           </Link>
           <nav className="nav">
-            <Link to="/news">Aktuality</Link>
+            <Link to="#news">Aktuality</Link>
+            <Link to="#hours">Ordinační hodiny</Link>
             <Link to="/about">O nás</Link>
             <Link to="/contacts">Kontakty</Link>
             <div className="emmy">
               {' '}
-              <Link to="/">Virtuální sestra Emmy</Link>
+              <Link to="https://www.sestraemmy.cz/gyntum">
+                Virtuální sestra Emmy
+              </Link>
             </div>
           </nav>
         </div>
@@ -47,8 +50,11 @@ export const Navigation = () => {
             className={navOpen ? 'nav-btn--closed' : 'nav-btn'}
           ></button>
           <div className={navOpen ? 'nav-mobile' : 'menu-mobile--closed'}>
-            <Link onClick={closeNav} to="/news">
+            <Link onClick={closeNav} to="#news">
               Aktuality
+            </Link>
+            <Link onClick={closeNav} to="#hours">
+              Ordinační hodiny
             </Link>
             <Link onClick={closeNav} to="/about">
               O nás

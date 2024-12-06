@@ -46,7 +46,7 @@
   align-items: center;
   gap: 10%;
   overflow: auto;
-  padding: 1% 0;
+  padding: 2% 0;
 }
 
 .logo {
@@ -128,15 +128,18 @@ nav a:focus {
 }
 
 .nav-btn {
-  width: 3rem;
-  height: 3rem;
+  width: 48px;
+  height: 48px;
   background-image: url('../../../public/img/hamburger-menu.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
-  margin: 10%;
+  background-position: center;
+  margin-right: 5%;
+  padding: 0;
   cursor: pointer;
   border: none;
+  position: relative;
 }
 
 .nav-btn--closed {
@@ -147,6 +150,7 @@ nav a:focus {
   margin-right: 10%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   z-index: 98;
 }
@@ -156,6 +160,7 @@ nav a:focus {
   font-weight: 500;
   color: var(--eerie-black);
   text-decoration: none;
+  text-align: center;
   display: inline-block;
   margin-bottom: 0.75rem;
   z-index: 98;

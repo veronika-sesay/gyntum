@@ -1,5 +1,6 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { news } from '../../content';
+import { Modal } from '../Modal';
 
 export const News = () => {
   const currentDate = new Date();
@@ -9,8 +10,11 @@ export const News = () => {
     (item) => new Date(item.expiryDate) > currentDate,
   );
 
+  // Modal state
+  const [modal, setModal] = useState(false);
+
   return (
-    <div>
+    <div className="news__none">
       {validNews.length === 0 ? (
         <p>Momentálně nemáme žádné aktuality.</p>
       ) : (
@@ -18,6 +22,16 @@ export const News = () => {
           <div className="news__item" key={item.id}>
             <h3>{item.title}</h3>
             <p>{item.body}</p>
+            {item.modal && (
+              <>
+                <button className="button" onClick={() => setModal(true)}>
+                  Zobrazit více
+                </button>
+                <Modal openModal={modal} closeModal={() => setModal(false)}>
+                  {item.modal}
+                </Modal>
+              </>
+            )}
           </div>
         ))
       )}

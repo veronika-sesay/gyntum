@@ -4,6 +4,7 @@ import { Navigation } from './pages/Navigation';
 // import { HomePage } from './pages/HomePage';
 import './global.css';
 import { HomePage } from './pages/HomePage';
+import { Footer } from './pages/Footer';
 
 const App = () => {
   return (
@@ -14,7 +15,9 @@ const App = () => {
       <main>
         <Outlet />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
