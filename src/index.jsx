@@ -1,10 +1,10 @@
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import { Navigation } from './pages/Navigation';
-// import { HomePage } from './pages/HomePage';
 import './global.css';
 import { HomePage } from './pages/HomePage';
 import { Footer } from './pages/Footer';
+import { About } from './pages/About';
 
 const App = () => {
   return (
@@ -28,6 +28,7 @@ createRoot(document.querySelector('#app')).render(
       <Route path="/" element={<App />}>
         <Route index element={<HomePage />} />
         <Route path="home" element={<HomePage />} />
+        <Route path="about" element={<About />} />
         <Route
           path="*"
           element={

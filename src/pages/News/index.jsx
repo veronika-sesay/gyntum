@@ -21,7 +21,7 @@ export const News = () => {
         validNews.map((item) => (
           <div className="news__item" key={item.id}>
             <h3>{item.title}</h3>
-            <p>{item.body}</p>
+            <div>{item.body}</div>
             {item.modal && (
               <>
                 <button className="button" onClick={() => setModal(true)}>

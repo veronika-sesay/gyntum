@@ -58,11 +58,17 @@ export const HomePage = () => {
             <p>13:00 - 14:00</p>
           </div>
         </div>
-        <div className="news">
+        <div id="news" className="news">
           <h2>Aktuality</h2>
           <News />
         </div>
       </div>
+
+      {/* <div className="button-up">
+        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          Nahoru
+        </button>
+      </div> */}
     </>
   );
 };

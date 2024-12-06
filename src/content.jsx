@@ -4,14 +4,14 @@ export const news = [
     title: 'Provozní doba o Vánocích',
     body: (
       <>
-        <p>
+        <div>
           V období Vánoc a Nového roku bude naše ordinace v provozu následovně:
           <ul>
             <li>23. - 27. 12. neordinujeme</li>
             <li>30. 12. je ordinace otevřena pouze pro objednané pacientky</li>
             <li>31. 12. - 1. 1. 2025 je ordinace zavřena</li>
           </ul>
-        </p>
+        </div>
         <p>
           <em>
             Přejeme vám klidné a pohodové svátky a těšíme se na vás v novém

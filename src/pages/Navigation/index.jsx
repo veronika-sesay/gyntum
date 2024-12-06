@@ -5,6 +5,17 @@ import './style.css';
 export const Navigation = () => {
   const [navOpen, setNavOpen] = useState(false);
   const closeNav = () => setNavOpen(false);
+  const scrollToSection = (e, sectionId) => {
+    e.preventDefault();
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      });
+    }
+    if (navOpen) closeNav();
+  };
 
   return (
     <>
@@ -28,10 +39,14 @@ export const Navigation = () => {
             <img className="logo" src="../img/logo-image.svg" alt="logo" />
           </Link>
           <nav className="nav">
-            <Link to="#news">Aktuality</Link>
-            <Link to="#hours">Ordinační hodiny</Link>
-            <Link to="/about">O nás</Link>
-            <Link to="/contacts">Kontakty</Link>
+            <a href="/home/#news" onClick={(e) => scrollToSection(e, 'news')}>
+              Aktuality
+            </a>
+            <a href="/home/#hours" onClick={(e) => scrollToSection(e, 'hours')}>
+              Ordinační hodiny
+            </a>
+            {/* <Link to="/about">O nás</Link> */}
+            {/* <Link to="/contacts">Kontakty</Link> */}
             <div className="emmy">
               {' '}
               <Link to="https://www.sestraemmy.cz/gyntum">
@@ -50,21 +65,26 @@ export const Navigation = () => {
             className={navOpen ? 'nav-btn--closed' : 'nav-btn'}
           ></button>
           <div className={navOpen ? 'nav-mobile' : 'menu-mobile--closed'}>
-            <Link onClick={closeNav} to="#news">
+            <a href="/home/#news" onClick={(e) => scrollToSection(e, 'hours')}>
               Aktuality
-            </Link>
-            <Link onClick={closeNav} to="#hours">
+            </a>
+            <a href="/home/#hours" onClick={(e) => scrollToSection(e, 'hours')}>
               Ordinační hodiny
-            </Link>
-            <Link onClick={closeNav} to="/about">
+            </a>
+            {/* <Link onClick={closeNav} to="/about">
               O nás
             </Link>
             <Link onClick={closeNav} to="/contacts">
               Kontakty
-            </Link>
-            <Link className="emmy" onClick={closeNav} to="/">
+            </Link> */}
+            <a
+              className="emmy"
+              href="https://www.sestraemmy.cz/gyntum"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Virtuální sestra Emmy
-            </Link>
+            </a>
           </div>
         </div>
       </div>
