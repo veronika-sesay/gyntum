@@ -75,10 +75,6 @@
   padding: 2%;
 }
 
-.hours {
-  text-align: start;
-}
-
 .table {
   display: flex;
   flex-direction: column;
@@ -145,9 +141,5 @@
   .row {
     flex-direction: column;
     align-items: flex-start; /* aligns text to the start in mobile view */
-  }
-
-  .row p {
-    text-align: start;
   }
 }
