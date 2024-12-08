@@ -28,7 +28,6 @@ body {
   --pink-lavender: #d8abbfff;
   --mimi-pink: #ebd5df;
 
-
   /*Mint shades*/
   --dark-cyan: #418b85ff;
   --verdigris: #619e99ff;
@@ -107,4 +106,6 @@ h6 {
   .container {
     width: 65%;
     max-width: var(--br-xxl);
-  }}
+  }
+}
+
