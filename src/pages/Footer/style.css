@@ -9,3 +9,9 @@
   margin: 0;
   padding: 1% 0;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.75rem;
+  }
+}
