@@ -87,14 +87,6 @@
   margin: 0 auto;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  flex-grow: 1;
-}
-
 .row p {
   flex-grow: 1;
   flex-basis: 33.3%;
