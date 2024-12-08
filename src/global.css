@@ -10,7 +10,7 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
-  height: 100%;
+  height: 100%
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -18,8 +18,6 @@ body {
   background-color: var(--salt);
   color: var(--eerie-black);
 }
-
-/* Removed conflicting body selector */
 
 :root {
   /*Murrey shades*/
@@ -30,10 +28,11 @@ body {
   --pink-lavender: #d8abbfff;
   --mimi-pink: #ebd5df;
 
+
   /*Mint shades*/
   --dark-cyan: #418b85ff;
   --verdigris: #619e99ff;
-  --cambridge-blue: rgb(128, 178, 174);
+  --cambridge-blue: #80b2ae;
   --ash-gray: #a0c5c2ff;
   --light-blue: #c0d8d6ff;
   --azure-web: #dfecebff;
@@ -109,4 +108,3 @@ h6 {
     width: 65%;
     max-width: var(--br-xxl);
   }
-}
