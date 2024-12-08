@@ -51,8 +51,8 @@ export const news = [
           <br /> <strong>Kpt. Jaroše 24, 390 03 Tábor.</strong>
         </p>
         <p>
-          Nové prostory budou moderní, prostorné a kvalitně vybavené, což nám
-          umožní poskytovat péči na ještě vyšší úrovni.
+          Nové prostory budou moderní a kvalitně vybavené, což nám umožní
+          poskytovat péči na ještě vyšší úrovni.
         </p>
         <p>
           Věříme, že naše stěhování nezpůsobí pacientkám větší problémy. Nová

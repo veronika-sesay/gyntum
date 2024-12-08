@@ -49,9 +49,13 @@ export const Navigation = () => {
             {/* <Link to="/contacts">Kontakty</Link> */}
             <div className="emmy">
               {' '}
-              <Link to="https://www.sestraemmy.cz/gyntum">
+              <a
+                href="https://www.sestraemmy.cz/gyntum"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Virtuální sestra Emmy
-              </Link>
+              </a>
             </div>
           </nav>
         </div>

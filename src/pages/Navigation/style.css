@@ -171,10 +171,6 @@ nav a:focus {
     font-size: 0.5rem;
   }
 
-  .logo {
-    max-width: 60%;
-  }
-
   nav {
     font-size: 0.5rem;
   }
@@ -183,10 +179,6 @@ nav a:focus {
 @media (min-width: 541px) and (max-width: 768px) {
   .top-row {
     font-size: 0.75rem;
-  }
-
-  .logo {
-    max-width: 70%;
   }
 
   nav a {
@@ -209,6 +201,10 @@ nav a:focus {
 
   .menu-desktop {
     display: none;
+  }
+
+  .logo {
+    max-width: 70%;
   }
 
   .nav {
