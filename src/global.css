@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
-  height: 100%;
+  height: 100%
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: var(--salt);
+  color: var(--eerie-black);
 }
 
 :root {
@@ -17,37 +26,39 @@ html {
   --china-rose: #b0567eff;
   --puce: #c4819fff;
   --pink-lavender: #d8abbfff;
-  --mimi-pink: #ebd5dfff;
+  --mimi-pink: #ebd5df;
+
 
   /*Mint shades*/
   --dark-cyan: #418b85ff;
   --verdigris: #619e99ff;
-  --cambridge-blue: #80b2aeff;
+  --cambridge-blue: #80b2ae;
   --ash-gray: #a0c5c2ff;
   --light-blue: #c0d8d6ff;
   --azure-web: #dfecebff;
 
   /*Seasalt shades*/
   --seasalt: #f7f9f9ff;
-  --seasalt-2: #fafbfb;
+  --salt: #fafbfb;
   --off-white: #fcfdfdff;
 
   /* black */
   --eerie-black: #1b2021ff;
 
   /* breakpoints */
-  --xs: 0;
-  --sm: 600px;
-  --md: 1024px;
+  --xs: 540px;
+  --sm: 768px;
+  --md: 1280px;
   --lg: 1600px;
   --xl: 2048px;
 
   /* container max-width */
-  --mw-xs: 480px;
-  --mw-sm: 960px;
-  --mw-md: 1280px;
-  --mw-lg: 1920px;
-  --mw-xl: 3840px;
+  --br-xs: 480px;
+  --br-sm: 615px;
+  --br-md: 1024px;
+  --br-lg: 1280px;
+  --br-xl: 1400px;
+  --br-xxl: 1600px;
 }
 
 h1,
@@ -57,13 +68,43 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  background-color: var(--seasalt-2);
-  color: var(--eerie-black);
+.container {
+  margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    max-width: var(--br-sm);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .container {
+    width: 80%;
+    max-width: var(--br-md);
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .container {
+    width: 75%;
+    max-width: var(--br-lg);
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 2048px) {
+  .container {
+    width: 70%;
+    max-width: var(--br-xl);
+  }
+}
+
+@media (min-width: 2049px) {
+  .container {
+    width: 65%;
+    max-width: var(--br-xxl);
+  }

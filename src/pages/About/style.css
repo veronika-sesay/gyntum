@@ -1,0 +1,16 @@
+.about {
+  padding: 10%;
+  margin: 2% auto;
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1601px) {
+  .about {
+    font-size: 1.3rem;
+  }
+}

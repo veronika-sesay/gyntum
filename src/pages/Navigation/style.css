@@ -1,0 +1,262 @@
+.top-row {
+  background-color: var(--salt);
+  width: 100%;
+  max-height: min-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1%;
+}
+
+.top-row a {
+  text-decoration: none;
+  color: var(--eerie-black);
+}
+
+.top-row__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 100%;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.menu {
+  background: linear-gradient(
+    to right,
+    var(--salt) 30%,
+    rgba(97, 158, 153, 0.7) 70%,
+    var(--salt) 100%
+  );
+  /* background-color: rgba(97, 158, 153, 0.6); */ /*verdigris color*/
+}
+
+.menu-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  overflow: auto;
+  padding: 2% 0;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+nav a {
+  margin: 0.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--eerie-black);
+  text-decoration: none;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+  /* font-size: 1.4rem; */
+  color: var(--murrey);
+}
+
+.emmy {
+  background-color: var(--mimi-pink);
+  border: 1px solid var(--verdigris);
+  border-radius: 10px;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.emmy:hover,
+.emmy:active,
+.emmy:focus {
+  /* transform: translateY(-2px);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.emmy a {
+  margin: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: var(--eerie-black);
+}
+
+.menu-mobile {
+  padding: 1% 0;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: space-evenly;
+  align-items: center;
+  min-width: 100%;
+}
+
+.menu-mobile--closed {
+  display: none;
+}
+
+.nav-btn {
+  width: 48px;
+  height: 48px;
+  background-image: url('../../../public/img/hamburger-menu.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  margin-right: 5%;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  position: relative;
+}
+
+.nav-btn--closed {
+  display: none;
+}
+
+.nav-mobile {
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 98;
+}
+
+.nav-mobile a {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--eerie-black);
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  z-index: 98;
+}
+
+@media (max-width: 540px) {
+  .top-row {
+    font-size: 0.5rem;
+  }
+
+  nav {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+  .top-row {
+    font-size: 0.75rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  .emmy a {
+    margin: 0.3rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
+
+  .logo {
+    max-width: 70%;
+  }
+
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .emmy a {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-mobile {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  /* .emmy a:hover,
+  .emmy a:active,
+  .emmy a:focus {
+    font-size: 1.2rem;
+  } */
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .logo {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .top-row {
+    font-size: 1.3rem;
+  }
+
+  .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  nav a {
+    font-size: 1.7rem;
+  }
+
+  nav a:hover,
+  nav a:active,
+  nav a:focus {
+    font-size: 1.8rem;
+  }
+}
