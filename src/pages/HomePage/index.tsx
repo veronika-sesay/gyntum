@@ -1,8 +1,7 @@
-import React from 'react';
 import './style.css';
 import { News } from '../News';
 
-export const HomePage = () => {
+export const HomePage = (): JSX.Element => {
   return (
     <>
       <div className="main-white content container">

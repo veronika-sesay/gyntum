@@ -1,9 +1,19 @@
-import React from 'react';
 import { useEffect, useRef } from 'react';
 import './style.css';
 
-export function Modal({ openModal, closeModal, children }) {
-  const ref = useRef();
+type ModalProps = {
+  openModal: boolean;
+  closeModal: () => void;
+  children: React.ReactNode;
+};
+
+export const Modal = ({
+  openModal,
+  closeModal,
+  children,
+}: ModalProps): JSX.Element => {
+  const ref: React.RefObject<HTMLDialogElement> =
+    useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
     if (openModal) {
@@ -21,4 +31,4 @@ export function Modal({ openModal, closeModal, children }) {
       </button>
     </dialog>
   );
-}
+};

@@ -1,13 +1,13 @@
-import { React, useState } from 'react';
+import { useState, MouseEvent } from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
 
-export const Navigation = () => {
-  const [navOpen, setNavOpen] = useState(false);
-  const closeNav = () => setNavOpen(false);
-  const scrollToSection = (e, sectionId) => {
+export const Navigation = (): JSX.Element => {
+  const [navOpen, setNavOpen] = useState<boolean>(false);
+  const closeNav: () => void = () => setNavOpen(false);
+  const scrollToSection = (e: MouseEvent, sectionId: string): void => {
     e.preventDefault();
-    const element = document.getElementById(sectionId);
+    const element: HTMLElement | null = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({
         behavior: 'smooth',

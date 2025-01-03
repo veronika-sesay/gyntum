@@ -1,4 +1,12 @@
-export const news = [
+export interface NewsItem {
+  id: number;
+  title: string;
+  body: JSX.Element;
+  modal: JSX.Element | undefined;
+  expiryDate: string;
+}
+
+export const news: NewsItem[] = [
   {
     id: 1,
     title: 'Provozní doba o Vánocích',
@@ -20,7 +28,7 @@ export const news = [
         </p>
       </>
     ),
-    modal: '',
+    modal: undefined,
     expiryDate: '2025-01-02T00:00:00Z',
   },
   {
