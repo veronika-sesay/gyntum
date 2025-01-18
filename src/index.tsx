@@ -5,6 +5,7 @@ import './global.css';
 import { HomePage } from './pages/HomePage';
 import { Footer } from './pages/Footer';
 import { About } from './pages/About';
+import { Services } from './pages/Services';
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
   );
 };
 
-const container = document.querySelector('#app');
+const container: Element | null = document.querySelector('#app');
 if (container) {
   createRoot(container).render(
     <BrowserRouter>
@@ -30,6 +31,7 @@ if (container) {
         <Route path="/" element={<App />}>
           <Route index element={<HomePage />} />
           <Route path="home" element={<HomePage />} />
+          <Route path="services" element={<Services />} />
           <Route path="about" element={<About />} />
           <Route
             path="*"

@@ -1,10 +1,10 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, ReactNode, RefObject } from 'react';
 import './style.css';
 
 type ModalProps = {
   openModal: boolean;
   closeModal: () => void;
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export const Modal = ({
@@ -12,8 +12,7 @@ export const Modal = ({
   closeModal,
   children,
 }: ModalProps): JSX.Element => {
-  const ref: React.RefObject<HTMLDialogElement> =
-    useRef<HTMLDialogElement>(null);
+  const ref: RefObject<HTMLDialogElement> = useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
     if (openModal) {

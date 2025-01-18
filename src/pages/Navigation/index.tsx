@@ -1,20 +1,12 @@
-import { useState, MouseEvent } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './style.css';
 
 export const Navigation = (): JSX.Element => {
   const [navOpen, setNavOpen] = useState<boolean>(false);
-  const closeNav: () => void = () => setNavOpen(false);
-  const scrollToSection = (e: MouseEvent, sectionId: string): void => {
-    e.preventDefault();
-    const element: HTMLElement | null = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center',
-      });
-    }
-    if (navOpen) closeNav();
+  const closeNav: () => void = () => {
+    setNavOpen(false);
   };
 
   return (
@@ -39,14 +31,15 @@ export const Navigation = (): JSX.Element => {
             <img className="logo" src="../img/logo-image.svg" alt="logo" />
           </Link>
           <nav className="nav">
-            <a href="/home/#news" onClick={(e) => scrollToSection(e, 'news')}>
+            <HashLink to="/#news" smooth>
               Aktuality
-            </a>
-            <a href="/home/#hours" onClick={(e) => scrollToSection(e, 'hours')}>
+            </HashLink>
+            <HashLink to="/#hours" smooth>
               Ordinační hodiny
-            </a>
+            </HashLink>
             {/* <Link to="/about">O nás</Link> */}
             {/* <Link to="/contacts">Kontakty</Link> */}
+            <Link to="/services">Služby</Link>
             <div className="emmy">
               {' '}
               <a
@@ -69,12 +62,15 @@ export const Navigation = (): JSX.Element => {
             className={navOpen ? 'nav-btn--closed' : 'nav-btn'}
           ></button>
           <div className={navOpen ? 'nav-mobile' : 'menu-mobile--closed'}>
-            <a href="/home/#news" onClick={(e) => scrollToSection(e, 'hours')}>
+            <HashLink to="/#news" smooth onClick={closeNav}>
               Aktuality
-            </a>
-            <a href="/home/#hours" onClick={(e) => scrollToSection(e, 'hours')}>
+            </HashLink>
+            <HashLink to="/#hours" smooth onClick={closeNav}>
               Ordinační hodiny
-            </a>
+            </HashLink>
+            <Link to="/services" onClick={closeNav}>
+              Služby
+            </Link>
             {/* <Link onClick={closeNav} to="/about">
               O nás
             </Link>
