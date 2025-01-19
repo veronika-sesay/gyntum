@@ -76,12 +76,18 @@ h6 {
 
 .main-white {
   background-color: var(--salt);
-  display: flex;
 }
 
 .main-blue {
   background-color: rgba(223, 236, 235, 0.5);
+}
+
+.flex {
   display: flex;
+}
+
+.display-none {
+  display: none;
 }
 
 @media (max-width: 768px) {

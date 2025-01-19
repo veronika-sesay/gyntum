@@ -4,7 +4,7 @@ import { News } from '../News';
 export const HomePage = (): JSX.Element => {
   return (
     <>
-      <div className="main-white intro container">
+      <div className="main-white flex intro container">
         <div className="text">
           <h1>Komplexní gynekologická péče pro ženy</h1>
           <p>
@@ -25,7 +25,7 @@ export const HomePage = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="main-blue operation container">
+      <div className="main-blue flex operation container">
         <div id="hours" className="hours">
           <h2>Ordinační hodiny</h2>
           <div className="row">
