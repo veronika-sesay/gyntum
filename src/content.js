@@ -2,10 +2,10 @@ import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-run
 export const news = [
     {
         id: 1,
-        title: 'Provozní doba o Vánocích',
-        body: (_jsxs(_Fragment, { children: [_jsxs("div", { children: ["V obdob\u00ED V\u00E1noc a Nov\u00E9ho roku bude na\u0161e ordinace v provozu n\u00E1sledovn\u011B:", _jsxs("ul", { children: [_jsx("li", { children: "23. - 27. 12. neordinujeme" }), _jsx("li", { children: "30. 12. je ordinace otev\u0159ena pouze pro objednan\u00E9 pacientky" }), _jsx("li", { children: "31. 12. - 1. 1. 2025 je ordinace zav\u0159ena" })] })] }), _jsx("p", { children: _jsx("em", { children: "P\u0159ejeme v\u00E1m klidn\u00E9 a pohodov\u00E9 sv\u00E1tky a t\u011B\u0161\u00EDme se na v\u00E1s v nov\u00E9m roce!" }) })] })),
+        title: 'Dočasné uzavření ordinace',
+        body: (_jsx(_Fragment, { children: _jsx("div", { children: _jsxs("p", { children: [_jsx("strong", { children: "Z d\u016Fvodu st\u011Bhov\u00E1n\u00ED bude ordinace od \u010Dtvrtka 30. 1. 2025 do\u010Dasn\u011B uzav\u0159ena." }), _jsxs("p", { children: ["Pravd\u011Bpodobn\u00FD term\u00EDn otev\u0159en\u00ED nov\u00E9 ordinace je v polovin\u011B \u00FAnora. O p\u0159esn\u00E9m term\u00EDnu v\u00E1s budeme informovat prost\u0159ednictv\u00EDm mailu a sms.", _jsxs("p", { children: ["Akutn\u00ED p\u0159\u00EDpady o\u0161et\u0159\u00ED MUDr. \u010Cmuchov\u00E1 (ordinace z druh\u00E9 strany", ' ', _jsx("em", { children: "Zubatky" }), " - Kpt.\u00A0Jaro\u0161e 2876)."] })] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] }) }) })),
         modal: undefined,
-        expiryDate: '2025-01-02T00:00:00Z',
+        expiryDate: '2025-02-20T23:59:59Z',
     },
     {
         id: 2,

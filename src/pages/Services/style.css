@@ -11,6 +11,7 @@
   flex: 1 1 33%;
   border: 1px solid var(--murrey);
   border-radius: 20px;
+  margin-bottom: 5%;
   /* align-self: stretch; */
 }
 
@@ -40,10 +41,41 @@
   padding: 5% 2%;
 }
 
+.center {
+  text-align: center;
+}
+
 .item-text--displayed {
   display: contents;
 }
 
 li {
   margin-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+  .care {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .care-items {
+    flex: 0 1 100%;
+    row-gap: 5%;
+  }
+
+  .item-img {
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .care {
+    flex-wrap: wrap;
+  }
+
+  .care-items {
+    flex: 0 1 45%;
+  }
 }

@@ -10,7 +10,7 @@ export const Services = (): JSX.Element => {
   return (
     <>
       <div className="main-white services container">
-        <div className="item-text">
+        <div className="item-text center">
           Naše gynekologická ordinace nabízí moderní a komplexní péči založenou
           na nejnovějších poznatcích medicíny. Klientky u nás mohou očekávat
           profesionální přístup, špičkové technologie a individuální péči.
@@ -159,7 +159,33 @@ export const Services = (): JSX.Element => {
                   <li>
                     <strong>Plasma Jett:</strong> moderní technologie, která
                     využívá plazmové energie k ošetření gynekologických potíží a
-                    zlepšení kvality života. Více informací zde.
+                    zlepšení kvality života.
+                    {/* Více informací zde. */}
+                  </li>
+                  <li>
+                    <strong>Testování skrytých genetických vad:</strong> ve
+                    spolupráci se společností LonGeneVity, zajišťujeme bezpečné
+                    testování skrytých genetických vad.
+                    <ul>
+                      <li>
+                        <strong>Prenascan:</strong> test stanovující riziko
+                        genetických vad miminka ze vzorku krve těhotné ženy.
+                        Test je vhodný pro všechny nastávající maminky, které
+                        chtějí vědět co nejvíce o zdraví svého miminka.
+                      </li>
+                      <li>
+                        <strong>CarrierTest:</strong> test na více než 2 000
+                        mutací způsobujících přes 80 genetických chorob. Test je
+                        vhodný pro partnery před plánováním dítěte, zejména při
+                        neplodnosti, opakovaných potratech, neúspěších IVF nebo
+                        dědičných onemocněních v rodině.
+                      </li>
+                      <li>
+                        <strong>Tromboscan:</strong> genetický test zaměřený na
+                        čtyři nejčastější trombofilní mutace, které se významně
+                        podílejí na procesu srážení krve.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
