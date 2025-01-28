@@ -74,6 +74,22 @@ h6 {
   margin: 0 auto;
 }
 
+.main-white {
+  background-color: var(--salt);
+}
+
+.main-blue {
+  background-color: rgba(223, 236, 235, 0.5);
+}
+
+.flex {
+  display: flex;
+}
+
+.display-none {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .container {
     width: 90%;
@@ -108,4 +124,3 @@ h6 {
     max-width: var(--br-xxl);
   }
 }
-

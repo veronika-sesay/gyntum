@@ -1,27 +1,40 @@
-export const news = [
+export interface NewsItem {
+  id: number;
+  title: string;
+  body: JSX.Element;
+  modal: JSX.Element | undefined;
+  expiryDate: string;
+}
+
+export const news: NewsItem[] = [
   {
     id: 1,
-    title: 'Provozní doba o Vánocích',
+    title: 'Dočasné uzavření ordinace',
     body: (
       <>
         <div>
-          V období Vánoc a Nového roku bude naše ordinace v provozu následovně:
-          <ul>
-            <li>23. - 27. 12. neordinujeme</li>
-            <li>30. 12. je ordinace otevřena pouze pro objednané pacientky</li>
-            <li>31. 12. - 1. 1. 2025 je ordinace zavřena</li>
-          </ul>
+          <p>
+            <strong>
+              Z důvodu stěhování bude ordinace od čtvrtka 30. 1. 2025 dočasně
+              uzavřena.
+            </strong>
+            <p>
+              Pravděpodobný termín otevření nové ordinace je v polovině února. O
+              přesném termínu vás budeme informovat prostřednictvím mailu a sms.
+              <p>
+                Akutní případy ošetří MUDr. Čmuchová (ordinace z druhé strany{' '}
+                <em>Zubatky</em> - Kpt.&nbsp;Jaroše 2876).
+              </p>
+            </p>
+            <p>
+              <strong>Děkujeme za pochopení!</strong>
+            </p>
+          </p>
         </div>
-        <p>
-          <em>
-            Přejeme vám klidné a pohodové svátky a těšíme se na vás v novém
-            roce!
-          </em>
-        </p>
       </>
     ),
-    modal: '',
-    expiryDate: '2025-01-02T00:00:00Z',
+    modal: undefined,
+    expiryDate: '2025-02-20T23:59:59Z',
   },
   {
     id: 2,

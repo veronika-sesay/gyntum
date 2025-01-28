@@ -1,11 +1,10 @@
-import React from 'react';
 import './style.css';
 import { News } from '../News';
 
-export const HomePage = () => {
+export const HomePage = (): JSX.Element => {
   return (
     <>
-      <div className="main-white content container">
+      <div className="main-white flex intro container">
         <div className="text">
           <h1>Komplexní gynekologická péče pro ženy</h1>
           <p>
@@ -26,7 +25,7 @@ export const HomePage = () => {
         </div>
       </div>
 
-      <div className="main-blue container">
+      <div className="main-blue flex operation container">
         <div id="hours" className="hours">
           <h2>Ordinační hodiny</h2>
           <div className="row">

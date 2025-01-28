@@ -1,17 +1,17 @@
-import { React, useState } from 'react';
-import { news } from '../../content';
+import { useState } from 'react';
+import { news, NewsItem } from '../../content';
 import { Modal } from '../Modal';
 
-export const News = () => {
-  const currentDate = new Date();
+export const News = (): JSX.Element => {
+  const currentDate: Date = new Date();
 
   // Filter out expired news
-  const validNews = news.filter(
+  const validNews: NewsItem[] = news.filter(
     (item) => new Date(item.expiryDate) > currentDate,
   );
 
   // Modal state
-  const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState<boolean>(false);
 
   return (
     <div className="news__none">
