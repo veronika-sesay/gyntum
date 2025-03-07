@@ -2,10 +2,10 @@ import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-run
 export const news = [
     {
         id: 1,
-        title: 'Dočasné uzavření ordinace',
-        body: (_jsx(_Fragment, { children: _jsx("div", { children: _jsxs("p", { children: [_jsx("strong", { children: "Z d\u016Fvodu st\u011Bhov\u00E1n\u00ED je ordinace od \u010Dtvrtka 30. 1. 2025 do\u010Dasn\u011B uzav\u0159ena." }), _jsxs("p", { children: ["Omlouv\u00E1me se za zpo\u017Ed\u011Bn\u00ED s realizac\u00ED st\u011Bhov\u00E1n\u00ED, informace o otev\u0159en\u00ED nov\u00E9 ordinace o\u010Dek\u00E1vejte v nejbli\u017E\u0161\u00EDch dnech prost\u0159ednictv\u00EDm mailu a sms.", _jsxs("p", { children: ["Akutn\u00ED p\u0159\u00EDpady o\u0161et\u0159\u00ED MUDr. \u010Cmuchov\u00E1 (ordinace z druh\u00E9 strany", ' ', _jsx("em", { children: "Zubatky" }), " - Kpt.\u00A0Jaro\u0161e 2876)."] })] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] }) }) })),
+        title: 'Naše ordinace je přestěhována!',
+        body: (_jsx(_Fragment, { children: _jsx("div", { children: _jsxs("p", { children: ["St\u011Bhov\u00E1n\u00ED je ji\u017E dokon\u010Den\u00E9 a nov\u011B s\u00EDdl\u00EDme na adrese", _jsx("strong", { children: " Kpt. Jaro\u0161e 24, 390 03" }), ". Vchod do budovy je vedle kav\u00E1rny, ordinace se nach\u00E1z\u00ED v 2. pat\u0159e."] }) }) })),
         modal: undefined,
-        expiryDate: '2025-03-09T23:59:59Z',
+        expiryDate: '2025-03-31T23:59:59Z',
     },
     {
         id: 2,

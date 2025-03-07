@@ -9,33 +9,20 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 1,
-    title: 'Dočasné uzavření ordinace',
+    title: 'Naše ordinace je přestěhována!',
     body: (
       <>
         <div>
           <p>
-            <strong>
-              Z důvodu stěhování je ordinace od čtvrtka 30. 1. 2025 dočasně
-              uzavřena.
-            </strong>
-            <p>
-              Omlouváme se za zpoždění s realizací stěhování, informace o
-              otevření nové ordinace očekávejte v nejbližších dnech
-              prostřednictvím mailu a sms.
-              <p>
-                Akutní případy ošetří MUDr. Čmuchová (ordinace z druhé strany{' '}
-                <em>Zubatky</em> - Kpt.&nbsp;Jaroše 2876).
-              </p>
-            </p>
-            <p>
-              <strong>Děkujeme za pochopení!</strong>
-            </p>
+            Stěhování je již dokončené a nově sídlíme na adrese
+            <strong> Kpt. Jaroše 24, 390 03</strong>. Vchod do budovy je vedle
+            kavárny, ordinace se nachází v 2. patře.
           </p>
         </div>
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-03-09T23:59:59Z',
+    expiryDate: '2025-03-31T23:59:59Z',
   },
   {
     id: 2,
