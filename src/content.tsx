@@ -12,13 +12,11 @@ export const news: NewsItem[] = [
     title: 'Naše ordinace je přestěhována!',
     body: (
       <>
-        <div>
-          <p>
-            Stěhování je již dokončené a nově sídlíme na adrese
-            <strong> Kpt. Jaroše 24, 390 03</strong>. Vchod do budovy je vedle
-            kavárny, ordinace se nachází v 2. patře.
-          </p>
-        </div>
+        <p>
+          Stěhování je již dokončené a nově sídlíme na adrese
+          <strong> Kpt. Jaroše&nbsp;24, 390&nbsp;03</strong>. Vchod do budovy je
+          vedle kavárny, ordinace se nachází v 2. patře.
+        </p>
       </>
     ),
     modal: undefined,
@@ -26,44 +24,23 @@ export const news: NewsItem[] = [
   },
   {
     id: 2,
-    title: 'Naše ordinace se bude stěhovat!',
+    title: 'Provoz o jarních prázdninách',
     body: (
       <>
         <p>
-          S radostí vám oznamujeme, že se naše ordinace bude stěhovat na novou
-          adresu, do budovy nově zrekonstruované{' '}
-          <strong>
-            {' '}
-            <em>Klokotky</em>
-          </strong>
-          .
+          Během jarních prázdnin <strong>(10.-14. 3.) a 17. 3.</strong> je
+          ordinace uzavřena z důvodu dovolené.{' '}
         </p>
         <p>
-          Přesný termín stěhování vám sdělíme, předpokládáný termín je únor
-          2025.
+          Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
+          Zubatce, Kpt. Jaroše&nbsp;2876)
+        </p>
+        <p>
+          <strong>Děkujeme za pochopení!</strong>
         </p>
       </>
     ),
-    modal: (
-      <>
-        <p>
-          V zájmu poskytování kvalitní péče a zlepšení komfortu pacientek se
-          naše ordinace bude stěhovat na novou adresu:
-          <br /> <strong>Kpt. Jaroše 24, 390 03 Tábor.</strong>
-        </p>
-        <p>
-          Nové prostory budou moderní a kvalitně vybavené, což nám umožní
-          poskytovat péči na ještě vyšší úrovni.
-        </p>
-        <p>
-          Věříme, že naše stěhování nezpůsobí pacientkám větší problémy. Nová
-          lokalita je nedaleko původní ordinace, hned vedle autobusové zastávky{' '}
-          <em>Klokoty</em>, k dispozici bude i několik parkovacích míst.
-          Návštěvu si navíc můžete zpříjemnit kávou v nově otevřené kavárně nebo
-          využitím fitness studia či wellness.
-        </p>
-      </>
-    ),
-    expiryDate: '2025-02-28T23:59:59Z',
+    modal: undefined,
+    expiryDate: '2025-03-17T23:59:59Z',
   },
 ];
