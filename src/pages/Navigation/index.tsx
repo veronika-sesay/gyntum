@@ -14,7 +14,9 @@ export const Navigation = (): JSX.Element => {
       <div className="top-row container">
         <div className="top-row__item">
           <img className="icon" src="../img/address.svg" alt="address icon" />
-          <a href="">Kpt. Jaroše 24, 390&nbsp;03&nbsp;Tábor</a>
+          <HashLink to="/#location" smooth>
+            Kpt. Jaroše 24, 390&nbsp;03&nbsp;Tábor
+          </HashLink>
         </div>
         <div className="top-row__item">
           <img className="icon" src="../img/phone.svg" alt="phone icon" />
