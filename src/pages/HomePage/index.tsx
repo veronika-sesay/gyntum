@@ -72,7 +72,7 @@ export const HomePage = (): JSX.Element => {
           </p>
           <p>Parkování je možné před budovou.</p>
           <p>
-            Nejbližší zastávka MHD jsou <em>Klokoty</em> (cca 100m).
+            Nejbližší zastávka MHD je <em>Klokoty</em> (cca 100m).
           </p>
         </div>
         <Map />
