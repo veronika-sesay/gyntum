@@ -1,10 +1,11 @@
 import './style.css';
 import { News } from '../News';
+import { Map } from '../Map';
 
 export const HomePage = (): JSX.Element => {
   return (
     <>
-      <div className="main-white flex intro container">
+      <div className="main-white flex container intro">
         <div className="text">
           <h1>Komplexní gynekologická péče pro ženy</h1>
           <p>
@@ -24,8 +25,7 @@ export const HomePage = (): JSX.Element => {
           <img src="../../img/main-image-nobg.png" alt="foto ženy" />
         </div>
       </div>
-
-      <div className="main-blue flex operation container">
+      <div className="main-blue flex container operation">
         <div id="hours" className="hours">
           <h2>Ordinační hodiny</h2>
           <div className="row">
@@ -62,7 +62,21 @@ export const HomePage = (): JSX.Element => {
           <News />
         </div>
       </div>
-
+      <div id="location" className="main-white container location">
+        <h2>Kde nás najdete?</h2>
+        <div className="text">
+          <p>
+            Ordinace se nachází v nově zrekonstruované budově{' '}
+            <a href="https://klokotkatabor.cz/">Klokotky</a>. Vchod do budovy je
+            vedle kavárny, ordinace se nachází v 2. patře, v budově je výtah.
+          </p>
+          <p>Parkování je možné před budovou.</p>
+          <p>
+            Nejbližší zastávka MHD jsou <em>Klokoty</em> (cca 100m).
+          </p>
+        </div>
+        <Map />
+      </div>
       {/* <div className="button-up">
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           Nahoru
