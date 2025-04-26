@@ -1,0 +1,12 @@
+.privacy {
+  margin-top: 5%;
+}
+
+.privacy h4 {
+  text-align: left;
+}
+
+.privacy ol li::marker {
+  font-weight: bold;
+  text-align: left;
+}

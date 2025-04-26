@@ -6,6 +6,7 @@ import { HomePage } from './pages/HomePage';
 import { Footer } from './pages/Footer';
 import { About } from './pages/About';
 import { Services } from './pages/Services';
+import { Privacy } from './pages/Privacy';
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ if (container) {
           <Route path="home" element={<HomePage />} />
           <Route path="services" element={<Services />} />
           <Route path="about" element={<About />} />
+          <Route path="privacy" element={<Privacy />} />
           <Route
             path="*"
             element={
