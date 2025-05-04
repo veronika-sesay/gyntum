@@ -16,7 +16,7 @@ export const news: NewsItem[] = [
           O svátcích 1. a 8. 5. 2025 je naše ordinace uzavřena. 9. 5. je taktéž
           uzavřena z důvodu dovolené.
         </p>
-{/*         <p>
+        {/*         <p>
           Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
           Zubatce, Kpt. Jaroše&nbsp;2876)
         </p> */}

@@ -3,7 +3,7 @@ export const news = [
     {
         id: 1,
         title: 'Provoz o květnových svátcích',
-        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "O sv\u00E1tc\u00EDch 1. a 8. 5. 2025 je na\u0161e ordinace uzav\u0159ena. 9. 5. je takt\u00E9\u017E uzav\u0159ena z d\u016Fvodu dovolen\u00E9." }), _jsx("p", { children: "Akutn\u00ED p\u0159\u00EDpady v tomto obdob\u00ED o\u0161et\u0159\u00ED MUDr. \u010Cmuchov\u00E1 (ordinace v Zubatce, Kpt. Jaro\u0161e\u00A02876)" }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "O sv\u00E1tc\u00EDch 1. a 8. 5. 2025 je na\u0161e ordinace uzav\u0159ena. 9. 5. je takt\u00E9\u017E uzav\u0159ena z d\u016Fvodu dovolen\u00E9." }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
         modal: undefined,
         expiryDate: '2025-05-10T23:59:59Z',
     },
