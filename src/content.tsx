@@ -9,12 +9,11 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 1,
-    title: 'Provoz o květnových svátcích',
+    title: '30. 5. 2025 neordinujeme',
     body: (
       <>
         <p>
-          O svátcích 1. a 8. 5. 2025 je naše ordinace uzavřena. 9. 5. je taktéž
-          uzavřena z důvodu dovolené.
+          Dne 30. 5. 2025 neordinujeme z důvodu účasti na lékařském kongresu. Sestřička bude přítomna pro případné administrativní úkony.
         </p>
         {/*         <p>
           Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
@@ -26,7 +25,27 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-05-10T23:59:59Z',
+    expiryDate: '2025-05-30T23:59:59Z',
+  },
+   {
+    id: 4,
+    title: '13. 6. 2025 neordinujeme',
+    body: (
+      <>
+        <p>
+          Dne 13. 6. 2025 neordinujeme z důvodu dovolené. Sestřička bude přítomna pro případné administrativní úkony.
+        </p>
+        {/*         <p>
+          Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
+          Zubatce, Kpt. Jaroše&nbsp;2876)
+        </p> */}
+        <p>
+          <strong>Děkujeme za pochopení!</strong>
+        </p>
+      </>
+    ),
+    modal: undefined,
+    expiryDate: '2025-06-13T23:59:59Z',
   },
   {
     id: 2,

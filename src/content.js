@@ -2,10 +2,17 @@ import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-run
 export const news = [
     {
         id: 1,
-        title: 'Provoz o květnových svátcích',
-        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "O sv\u00E1tc\u00EDch 1. a 8. 5. 2025 je na\u0161e ordinace uzav\u0159ena. 9. 5. je takt\u00E9\u017E uzav\u0159ena z d\u016Fvodu dovolen\u00E9." }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        title: '30. 5. 2025 neordinujeme',
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Dne 30. 5. 2025 neordinujeme z d\u016Fvodu \u00FA\u010Dasti na l\u00E9ka\u0159sk\u00E9m kongresu. Sest\u0159i\u010Dka bude p\u0159\u00EDtomna pro p\u0159\u00EDpadn\u00E9 administrativn\u00ED \u00FAkony." }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
         modal: undefined,
-        expiryDate: '2025-05-10T23:59:59Z',
+        expiryDate: '2025-05-30T23:59:59Z',
+    },
+    {
+        id: 4,
+        title: '13. 6. 2025 neordinujeme',
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Dne 13. 6. 2025 neordinujeme z d\u016Fvodu dovolen\u00E9. Sest\u0159i\u010Dka bude p\u0159\u00EDtomna pro p\u0159\u00EDpadn\u00E9 administrativn\u00ED \u00FAkony." }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        modal: undefined,
+        expiryDate: '2025-06-13T23:59:59Z',
     },
     {
         id: 2,
