@@ -9,11 +9,11 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 1,
-    title: '30. 5. 2025 neordinujeme',
+    title: "Prázdninová ordinační doba",
     body: (
       <>
         <p>
-          Dne 30. 5. 2025 neordinujeme z důvodu účasti na lékařském kongresu. Sestřička bude přítomna pro případné administrativní úkony.
+          Během letních prázdnin končí ordinační doba v pondělí již v 16:00. 
         </p>
         {/*         <p>
           Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
@@ -25,15 +25,18 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-05-30T23:59:59Z',
+    expiryDate: '2025-09-10T23:59:59Z',
   },
    {
     id: 4,
-    title: '13. 6. 2025 neordinujeme',
+    title: 'Dovolená',
     body: (
       <>
         <p>
-          Dne 13. 6. 2025 neordinujeme z důvodu dovolené. Sestřička bude přítomna pro případné administrativní úkony.
+          4. - 17. 8. 2025 neordinujeme z důvodu dovolené. 
+        </p>
+        <p>
+          S akutními případy prosím navštivte Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance tel.: <a href="tel:381605362">381&nbsp;605&nbsp;362</a>, <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
         </p>
         {/*         <p>
           Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
@@ -45,7 +48,7 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-06-13T23:59:59Z',
+    expiryDate: '2025-08-18T23:59:59Z',
   },
   {
     id: 2,
@@ -54,7 +57,7 @@ export const news: NewsItem[] = [
       <>
         <img src="../../img/instagram-icon.svg" alt="instagram" />{' '}
         <p>
-          Sledujte náš instagram <strong>gynekologie_tumova</strong> a
+          Sledujte náš instagram <strong><a href="https://www.instagram.com/gynekologie_tumova">gynekologie_tumova</a></strong> a
           získávejte informace o našich aktivitách.
         </p>
       </>
