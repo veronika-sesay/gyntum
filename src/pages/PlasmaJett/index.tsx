@@ -179,7 +179,7 @@ export const PlasmaJett = (): JSX.Element => {
           <p>
             Ošetření není hrazeno z veřejného zdravotního pojištění. Cena
             jednoho zákroku je 2 500 Kč. Za doporučený cyklus tří ošetření tedy
-            zaplatíte 7 000 Kč.
+            zaplatíte 7 500 Kč.
           </p>
           <p>
             Cena je uvedena k datu 1. 9. 2025 a může se měnit. Pro více
