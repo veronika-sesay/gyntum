@@ -86,10 +86,30 @@
 
 .location {
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .location .text {
   padding-top: 0;
+}
+
+.insurance {
+  padding: 2%;
+}
+
+.logo-container {
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.logo-container img {
+  max-width: 100px;
+  max-height: 45px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
@@ -118,6 +138,20 @@
   .news {
     font-size: 0.75rem;
   }
+
+  .location {
+    font-size: 0.75rem;
+  }
+
+  .insurance {
+    font-size: 0.75rem;
+  }
+
+  .logo-container img {
+    max-width: 70px;
+    max-height: 30px;
+    height: auto;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
@@ -144,5 +178,13 @@
   .row {
     flex-direction: column;
     align-items: flex-start; /* aligns text to the start in mobile view */
+  }
+
+  .location {
+    font-size: 1.3rem;
+  }
+
+  .insurance {
+    font-size: 1.3rem;
   }
 }
