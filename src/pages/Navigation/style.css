@@ -33,9 +33,9 @@
 .menu {
   background: linear-gradient(
     to right,
-    var(--salt) 30%,
+    var(--seasalt) 30%,
     rgba(97, 158, 153, 0.7) 70%,
-    var(--salt) 100%
+    var(--seasalt) 100%
   );
   /* background-color: rgba(97, 158, 153, 0.6); */ /*verdigris color*/
 }

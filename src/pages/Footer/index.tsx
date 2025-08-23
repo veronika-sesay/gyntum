@@ -4,7 +4,7 @@ import './style.css';
 export const Footer = (): JSX.Element => {
   return (
     <>
-      <div className="footer container">
+      <div className="footer">
         <div>
           <Link to="/privacy">Zásady ochrany osobních údajů</Link>
         </div>
