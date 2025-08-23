@@ -77,6 +77,27 @@ export const HomePage = (): JSX.Element => {
         </div>
         <Map />
       </div>
+      <div className="main-blue container insurance">
+        <h2>Smluvní pojišťovny</h2>
+        <p>
+          Jsme smluvními partnery těchto zdravotních pojišťoven v ČR:
+          <ul>
+            <li>Všeobecná zdravotní pojišťovna (VZP)</li>
+            <li>Vojenská zdravotní pojišťovna ČR (VoZP)</li>
+            <li>Česká průmyslová zdravotní pojišťovna (ČPZP)</li>
+            <li>Oborová zdravotní pojišťovna (OZP)</li>
+            <li>Zdravotní pojišťovna Ministerstva vnitra ČR (ZPMV ČR)</li>
+          </ul>
+        </p>
+        <div className="logo-container flex">
+          <img src="../../img/111.png" alt="VZP" />
+          <img src="../../img/201.png" alt="VoZP" />
+          <img src="../../img/205.png" alt="ČPZP" />
+          <img src="../../img/207.png" alt="OZP" />
+          <img src="../../img/211.png" alt="ZPMV" />
+        </div>
+        <h3>V současné době stále přijímáme nové pacientky.</h3>
+      </div>
       {/* <div className="button-up">
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           Nahoru
