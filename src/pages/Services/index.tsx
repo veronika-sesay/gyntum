@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 export const Services = (): JSX.Element => {
@@ -157,10 +158,10 @@ export const Services = (): JSX.Element => {
               >
                 <ul>
                   <li>
-                    <strong>Plasma Jett:</strong> moderní technologie, která
+                    <strong>Jett Plasma:</strong> moderní technologie, která
                     využívá plazmové energie k ošetření gynekologických potíží a
-                    zlepšení kvality života.
-                    {/* Více informací zde. */}
+                    zlepšení kvality života.{' '}
+                    <Link to="/plasmajett">Více informací zde.</Link>
                   </li>
                   <li>
                     <strong>Testování skrytých genetických vad:</strong> ve
