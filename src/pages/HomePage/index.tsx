@@ -47,7 +47,7 @@ export const HomePage = (): JSX.Element => {
             <h4>Čtvrtek</h4>
             <p>
               7:00 - 12:00 <br />
-              ADMINISTRATIVA
+              POUZE PRO OBJEDNANÉ PACIENTKY
             </p>
             <p>---</p>
           </div>
