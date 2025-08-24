@@ -27,10 +27,36 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-09-10T23:59:59Z',
+    expiryDate: '2025-09-05T23:59:59Z',
   },
   {
     id: 2,
+    title: 'Dovolená',
+    body: (
+      <>
+        <p>
+          <strong>10. - 12. 9. 2025</strong> neordinujeme z důvodu dovolené.
+        </p>
+        {/* <p>
+          S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
+          Nemocnice Tábor (ambulance tel.:{' '}
+          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
+          <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
+        </p> */}
+        <p>
+          Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
+          Zubatce, Kpt. Jaroše&nbsp;2876)
+        </p>
+        <p>
+          <strong>Děkujeme za pochopení!</strong>
+        </p>
+      </>
+    ),
+    modal: undefined,
+    expiryDate: '2025-09-12T23:59:59Z',
+  },
+  {
+    id: 3,
     title: 'Sledujte náš instagram!',
     body: (
       <>
@@ -50,7 +76,7 @@ export const news: NewsItem[] = [
     expiryDate: '2025-12-31T23:59:59Z',
   },
   {
-    id: 3,
+    id: 4,
     title:
       'Jett Plasma - revoluční ošetření pro ženy dostupné v naší ordinaci!',
     body: (
@@ -68,30 +94,7 @@ export const news: NewsItem[] = [
     modal: undefined,
     expiryDate: '2026-12-31T23:59:59Z',
   },
-  {
-    id: 4,
-    title: 'Dovolená',
-    body: (
-      <>
-        <p>4. - 17. 8. 2025 neordinujeme z důvodu dovolené.</p>
-        <p>
-          S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
-          Nemocnice Tábor (ambulance tel.:{' '}
-          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
-          <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
-        </p>
-        {/*         <p>
-          Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
-          Zubatce, Kpt. Jaroše&nbsp;2876)
-        </p> */}
-        <p>
-          <strong>Děkujeme za pochopení!</strong>
-        </p>
-      </>
-    ),
-    modal: undefined,
-    expiryDate: '2025-08-18T23:59:59Z',
-  },
+
   {
     id: 5,
     title: 'Naše ordinace je přestěhována!',
