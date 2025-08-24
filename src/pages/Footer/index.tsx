@@ -5,10 +5,13 @@ export const Footer = (): JSX.Element => {
   return (
     <>
       <div className="footer">
-        <div>
+        <div className="footer__links container">
           <Link to="/privacy">Zásady ochrany osobních údajů</Link>
+          <Link to="/price">Ceník služeb</Link>
         </div>
-        <p>&copy; 2024 Veronika Sesay. Všechna práva vyhrazena.</p>
+        <p className="footer__copyright">
+          &copy; 2025 Veronika Sesay. Všechna práva vyhrazena.
+        </p>
       </div>
     </>
   );

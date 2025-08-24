@@ -8,6 +8,7 @@ import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { Privacy } from './pages/Privacy';
 import { PlasmaJett } from './pages/PlasmaJett';
+import { Price } from './pages/Price';
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ if (container) {
           <Route path="about" element={<About />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="plasmajett" element={<PlasmaJett />} />
+          <Route path="price" element={<Price />} />
           {/* Add other routes as needed */}
           <Route
             path="*"

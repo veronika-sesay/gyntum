@@ -9,10 +9,11 @@ import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { Privacy } from './pages/Privacy';
 import { PlasmaJett } from './pages/PlasmaJett';
+import { Price } from './pages/Price';
 const App = () => {
     return (_jsxs(_Fragment, { children: [_jsx("header", { children: _jsx(Navigation, {}) }), _jsx("main", { children: _jsx(Outlet, {}) }), _jsx("footer", { children: _jsx(Footer, {}) })] }));
 };
 const container = document.querySelector('#app');
 if (container) {
-    createRoot(container).render(_jsx(BrowserRouter, { children: _jsx(Routes, { children: _jsxs(Route, { path: "/", element: _jsx(App, {}), children: [_jsx(Route, { index: true, element: _jsx(HomePage, {}) }), _jsx(Route, { path: "home", element: _jsx(HomePage, {}) }), _jsx(Route, { path: "services", element: _jsx(Services, {}) }), _jsx(Route, { path: "about", element: _jsx(About, {}) }), _jsx(Route, { path: "privacy", element: _jsx(Privacy, {}) }), _jsx(Route, { path: "plasmajett", element: _jsx(PlasmaJett, {}) }), _jsx(Route, { path: "*", element: _jsx("main", { style: { padding: '3rem' }, children: _jsx("p", { children: "Tady nen\u00ED v\u016Fbec nic!" }) }) })] }) }) }));
+    createRoot(container).render(_jsx(BrowserRouter, { children: _jsx(Routes, { children: _jsxs(Route, { path: "/", element: _jsx(App, {}), children: [_jsx(Route, { index: true, element: _jsx(HomePage, {}) }), _jsx(Route, { path: "home", element: _jsx(HomePage, {}) }), _jsx(Route, { path: "services", element: _jsx(Services, {}) }), _jsx(Route, { path: "about", element: _jsx(About, {}) }), _jsx(Route, { path: "privacy", element: _jsx(Privacy, {}) }), _jsx(Route, { path: "plasmajett", element: _jsx(PlasmaJett, {}) }), _jsx(Route, { path: "price", element: _jsx(Price, {}) }), _jsx(Route, { path: "*", element: _jsx("main", { style: { padding: '3rem' }, children: _jsx("p", { children: "Tady nen\u00ED v\u016Fbec nic!" }) }) })] }) }) }));
 }
