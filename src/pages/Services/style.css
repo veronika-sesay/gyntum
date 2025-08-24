@@ -54,6 +54,10 @@ li {
 }
 
 @media (max-width: 768px) {
+  .services {
+    font-size: 0.75rem;
+  }
+
   .care {
     flex-direction: column;
     align-items: center;
@@ -77,5 +81,17 @@ li {
 
   .care-items {
     flex: 0 1 45%;
+  }
+}
+
+@media (min-width: 1601px) {
+  .services {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1601px) {
+  .price {
+    font-size: 1.2rem;
   }
 }

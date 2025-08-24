@@ -93,7 +93,7 @@
 }
 
 .insurance {
-  padding: 2%;
+  padding: 2% 2% 5% 2%;
 }
 
 .logo-container {
@@ -163,15 +163,15 @@
 
 @media (min-width: 1601px) {
   .text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .hours {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .news {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .row {
@@ -180,10 +180,10 @@
   }
 
   .location {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .insurance {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }

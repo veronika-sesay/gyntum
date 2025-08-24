@@ -1,0 +1,50 @@
+.price {
+  padding: 2%;
+}
+
+.price-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 10%;
+}
+
+.price-section {
+  flex: 1 1 45%;
+  border: 1px solid var(--murrey);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+
+.price-value {
+  font-weight: bold;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.price-row span {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .price {
+    font-size: 0.75rem;
+  }
+  .price-section {
+    flex: 1 1 100%;
+  }
+}
+
+@media (min-width: 1601px) {
+  .price {
+    font-size: 1.2rem;
+  }
+}

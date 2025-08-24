@@ -193,6 +193,16 @@ export const Services = (): JSX.Element => {
             </div>
           </div>
         </div>
+        <div className="item-text center">
+          Ceník služeb nehrazených z veřejného zdravotního pojištění najdete{' '}
+          <Link
+            to="/price"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          >
+            zde
+          </Link>
+          .
+        </div>
       </div>
     </>
   );

@@ -41,6 +41,10 @@
   margin: 0;
 }
 
+.faq {
+  margin-bottom: 5%;
+}
+
 .faq__item {
   justify-content: space-between;
 }
@@ -71,10 +75,10 @@
 
 @media (min-width: 1601px) {
   .plasma-jett {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .faq {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
