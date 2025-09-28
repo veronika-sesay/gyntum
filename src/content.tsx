@@ -31,29 +31,30 @@ export const news: NewsItem[] = [
   },
   {
     id: 2,
-    title: 'Dovolená',
+    title: '6. - 10. 10. 2025 neordinujeme',
     body: (
       <>
         <p>
-          <strong>10. - 12. 9. 2025</strong> neordinujeme z důvodu dovolené.
+          Z důvodu účasti na vzdělávací akci neordinujeme v období 6. - 10. 10.
+          2025.
+        </p>
+        <p>
+          Pro administrativu bude přítomna sestřička, s akutními případy prosím
+          navštivte Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance
+          tel.: <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
+          <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
         </p>
         {/* <p>
-          S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
-          Nemocnice Tábor (ambulance tel.:{' '}
-          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
-          <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
-        </p> */}
-        <p>
           Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
           Zubatce, Kpt. Jaroše&nbsp;2876)
-        </p>
+        </p> */}
         <p>
           <strong>Děkujeme za pochopení!</strong>
         </p>
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-09-12T23:59:59Z',
+    expiryDate: '2025-10-10T23:59:59Z',
   },
   {
     id: 3,
@@ -87,7 +88,10 @@ export const news: NewsItem[] = [
           tkání ve vulvovaginální oblasti.{' '}
         </p>
         <p>
-          Více informací <Link to="/plasmajett">zde.</Link>
+          Více informací{' '}
+          <Link to="/plasmajett" onClick={() => window.scrollTo(0, 0)}>
+            zde.
+          </Link>
         </p>
       </>
     ),

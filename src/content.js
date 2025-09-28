@@ -10,10 +10,10 @@ export const news = [
     },
     {
         id: 2,
-        title: 'Dovolená',
-        body: (_jsxs(_Fragment, { children: [_jsxs("p", { children: [_jsx("strong", { children: "10. - 12. 9. 2025" }), " neordinujeme z d\u016Fvodu dovolen\u00E9."] }), _jsx("p", { children: "Akutn\u00ED p\u0159\u00EDpady v tomto obdob\u00ED o\u0161et\u0159\u00ED MUDr. \u010Cmuchov\u00E1 (ordinace v Zubatce, Kpt. Jaro\u0161e\u00A02876)" }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        title: '6. - 10. 10. 2025 neordinujeme',
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Z d\u016Fvodu \u00FA\u010Dasti na vzd\u011Bl\u00E1vac\u00ED akci neordinujeme v obdob\u00ED 6. - 10. 10. 2025." }), _jsxs("p", { children: ["Pro administrativu bude p\u0159\u00EDtomna sest\u0159i\u010Dka, s akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.: ", _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
         modal: undefined,
-        expiryDate: '2025-09-12T23:59:59Z',
+        expiryDate: '2025-10-10T23:59:59Z',
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ export const news = [
     {
         id: 4,
         title: 'Jett Plasma - revoluční ošetření pro ženy dostupné v naší ordinaci!',
-        body: (_jsxs(_Fragment, { children: [_jsxs("p", { children: ["Dovolujeme si V\u00E1m nab\u00EDdnout o\u0161et\u0159en\u00ED p\u0159\u00EDstrojem Jett Plasma for Her II. Jedn\u00E1 se o certifikovan\u00FD zdravotnick\u00FD prost\u0159edek ur\u010Den\u00FD k omlazen\u00ED tk\u00E1n\u00ED ve vulvovagin\u00E1ln\u00ED oblasti.", ' '] }), _jsxs("p", { children: ["V\u00EDce informac\u00ED ", _jsx(Link, { to: "/plasmajett", children: "zde." })] })] })),
+        body: (_jsxs(_Fragment, { children: [_jsxs("p", { children: ["Dovolujeme si V\u00E1m nab\u00EDdnout o\u0161et\u0159en\u00ED p\u0159\u00EDstrojem Jett Plasma for Her II. Jedn\u00E1 se o certifikovan\u00FD zdravotnick\u00FD prost\u0159edek ur\u010Den\u00FD k omlazen\u00ED tk\u00E1n\u00ED ve vulvovagin\u00E1ln\u00ED oblasti.", ' '] }), _jsxs("p", { children: ["V\u00EDce informac\u00ED", ' ', _jsx(Link, { to: "/plasmajett", onClick: () => window.scrollTo(0, 0), children: "zde." })] })] })),
         modal: undefined,
         expiryDate: '2026-12-31T23:59:59Z',
     },
