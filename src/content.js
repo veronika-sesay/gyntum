@@ -11,7 +11,7 @@ export const news = [
     {
         id: 2,
         title: '3. - 7. 11. 2025 neordinujeme',
-        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Z d\u016Fvodu dovolen\u00E9 neordinujeme v obdob\u00ED 3. - 7. 11. 2025. 2025." }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm bu\u010F", ' ', _jsx("a", { href: "https://gynportabor.cz/", children: "MUDr. \u010Cmuchovou" }), " (ordinace v Zubatce, Kpt. Jaro\u0161e\u00A02876) nebo nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Z d\u016Fvodu dovolen\u00E9 neordinujeme v obdob\u00ED 3. - 7. 11. 2025." }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte bu\u010F", ' ', _jsx("a", { href: "https://gynportabor.cz/", children: "MUDr. \u010Cmuchovou" }), " (ordinace v Zubatce, Kpt. Jaro\u0161e\u00A02876) nebo Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
         modal: undefined,
         expiryDate: '2025-11-07T23:59:59Z',
     },

@@ -34,12 +34,12 @@ export const news: NewsItem[] = [
     title: '3. - 7. 11. 2025 neordinujeme',
     body: (
       <>
-        <p>Z důvodu dovolené neordinujeme v období 3. - 7. 11. 2025. 2025.</p>
+        <p>Z důvodu dovolené neordinujeme v období 3. - 7. 11. 2025.</p>
         <p>
-          S akutními případy prosím buď{' '}
+          S akutními případy prosím navštivte buď{' '}
           <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
-          Zubatce, Kpt. Jaroše&nbsp;2876) nebo navštivte
-          Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance tel.:{' '}
+          Zubatce, Kpt. Jaroše&nbsp;2876) nebo Gynekologicko-porodnické oddělení
+          Nemocnice Tábor (ambulance tel.:{' '}
           <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
           <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
         </p>
