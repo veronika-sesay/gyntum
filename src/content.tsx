@@ -31,30 +31,25 @@ export const news: NewsItem[] = [
   },
   {
     id: 2,
-    title: '6. - 10. 10. 2025 neordinujeme',
+    title: '3. - 7. 11. 2025 neordinujeme',
     body: (
       <>
+        <p>Z důvodu dovolené neordinujeme v období 3. - 7. 11. 2025. 2025.</p>
         <p>
-          Z důvodu účasti na vzdělávací akci neordinujeme v období 6. - 10. 10.
-          2025.
-        </p>
-        <p>
-          Pro administrativu bude přítomna sestřička, s akutními případy prosím
-          navštivte Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance
-          tel.: <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
+          S akutními případy prosím buď{' '}
+          <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
+          Zubatce, Kpt. Jaroše&nbsp;2876) nebo navštivte
+          Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance tel.:{' '}
+          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
           <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
         </p>
-        {/* <p>
-          Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
-          Zubatce, Kpt. Jaroše&nbsp;2876)
-        </p> */}
         <p>
           <strong>Děkujeme za pochopení!</strong>
         </p>
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-10-10T23:59:59Z',
+    expiryDate: '2025-11-07T23:59:59Z',
   },
   {
     id: 3,
