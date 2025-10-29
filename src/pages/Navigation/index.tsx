@@ -42,7 +42,7 @@ export const Navigation = (): JSX.Element => {
             {/* <Link to="/about">O nás</Link> */}
             {/* <Link to="/contacts">Kontakty</Link> */}
             <Link to="/services">Služby</Link>
-            <div className="emmy">
+            {/* <div className="emmy">
               {' '}
               <a
                 href="https://www.sestraemmy.cz/gyntum"
@@ -51,7 +51,7 @@ export const Navigation = (): JSX.Element => {
               >
                 Virtuální sestra Emmy
               </a>
-            </div>
+            </div> */}
           </nav>
         </div>
 

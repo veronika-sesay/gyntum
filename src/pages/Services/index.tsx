@@ -44,7 +44,7 @@ export const Services = (): JSX.Element => {
               >
                 <ul>
                   <li>
-                    <strong>Preventivní gynekologické prohlídky:</strong>
+                    <strong>Preventivní gynekologické prohlídky: </strong>
                     pravidelná péče o vaše zdraví a prevence onemocnění.
                   </li>
                   <li>

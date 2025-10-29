@@ -14,12 +14,12 @@ export const HomePage = (): JSX.Element => {
             je poskytovat moderní a efektivní péči na nejvyšší úrovni, která
             odpovídá potřebám každé pacientky.
           </p>
-          <p>
+          {/* <p>
             Pro zabezpečenou komunikaci s pacientkami používáme{' '}
             <strong>virtuální sestru Emmy</strong>. Emmy nahrazuje email a do
             velké míry i telefon. Usnadní vám přístup k péči i objednání a
             zároveň šetří vzácný čas zdravotnickému personálu.
-          </p>
+          </p> */}
         </div>
         <div className="photo">
           <img src="../../img/main-image-nobg.png" alt="foto ženy" />
@@ -31,7 +31,7 @@ export const HomePage = (): JSX.Element => {
           <div className="row">
             <h4>Pondělí</h4>
             <p>10:00 - 12:30</p>
-            <p>13:00 - 16:00</p>
+            <p>13:00 - 18:00</p>
           </div>
           <div className="row">
             <h4>Úterý</h4>
