@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 export const news = [
     {
         id: 1,
-        title: 'Prázdninová ordinační doba',
-        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "B\u011Bhem letn\u00EDch pr\u00E1zdnin kon\u010D\u00ED ordina\u010Dn\u00ED doba v pond\u011Bl\u00ED ji\u017E v 16:00." }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        title: 'Nový systém objednávání',
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Od 1. 11. 2025 p\u0159ech\u00E1z\u00EDme na nov\u00FD syst\u00E9m objedn\u00E1v\u00E1n\u00ED, proto moment\u00E1ln\u011B ji\u017E nelze prov\u00E1d\u011Bt objedn\u00E1n\u00ED na kontrolu nebo \u017E\u00E1dost o recept p\u0159es dosavadn\u00ED syst\u00E9m Emmy. Pro objedn\u00E1n\u00ED nebo \u017E\u00E1dost o recept n\u00E1s pros\u00EDm kontaktujte telefonicky." }), _jsx("p", { children: _jsx("strong", { children: "Omlouv\u00E1me se za p\u0159\u00EDpadn\u00E9 komplikace a d\u011Bkujeme za pochopen\u00ED!" }) })] })),
         modal: undefined,
-        expiryDate: '2025-09-05T23:59:59Z',
+        expiryDate: '2025-11-05T23:59:59Z',
     },
     {
         id: 2,

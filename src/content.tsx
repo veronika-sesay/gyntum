@@ -11,23 +11,28 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 1,
-    title: 'Prázdninová ordinační doba',
+    title: 'Nový systém objednávání',
     body: (
       <>
         <p>
-          Během letních prázdnin končí ordinační doba v pondělí již v 16:00.
+          Od 1. 11. 2025 přecházíme na nový systém objednávání, proto momentálně
+          již nelze provádět objednání na kontrolu nebo žádost o recept přes
+          dosavadní systém Emmy. Pro objednání nebo žádost o recept nás prosím
+          kontaktujte telefonicky.
         </p>
         {/*         <p>
           Akutní případy v tomto období ošetří MUDr. Čmuchová (ordinace v
           Zubatce, Kpt. Jaroše&nbsp;2876)
         </p> */}
         <p>
-          <strong>Děkujeme za pochopení!</strong>
+          <strong>
+            Omlouváme se za případné komplikace a děkujeme za pochopení!
+          </strong>
         </p>
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-09-05T23:59:59Z',
+    expiryDate: '2025-11-05T23:59:59Z',
   },
   {
     id: 2,
