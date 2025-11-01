@@ -42,16 +42,16 @@ export const Navigation = (): JSX.Element => {
             {/* <Link to="/about">O nás</Link> */}
             {/* <Link to="/contacts">Kontakty</Link> */}
             <Link to="/services">Služby</Link>
-            {/* <div className="emmy">
+            <div className="emmy">
               {' '}
               <a
-                href="https://www.sestraemmy.cz/gyntum"
+                href="https://v3.smartmedix.net/?reg=1783801"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Virtuální sestra Emmy
+                Objednání online
               </a>
-            </div> */}
+            </div>
           </nav>
         </div>
 
@@ -81,11 +81,11 @@ export const Navigation = (): JSX.Element => {
             </Link> */}
             <a
               className="emmy"
-              href="https://www.sestraemmy.cz/gyntum"
+              href="https://v3.smartmedix.net/?reg=1783801"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Virtuální sestra Emmy
+              Objednání online
             </a>
           </div>
         </div>

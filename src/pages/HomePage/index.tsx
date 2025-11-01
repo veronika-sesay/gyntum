@@ -14,12 +14,12 @@ export const HomePage = (): JSX.Element => {
             je poskytovat moderní a efektivní péči na nejvyšší úrovni, která
             odpovídá potřebám každé pacientky.
           </p>
-          {/* <p>
-            Pro zabezpečenou komunikaci s pacientkami používáme{' '}
-            <strong>virtuální sestru Emmy</strong>. Emmy nahrazuje email a do
-            velké míry i telefon. Usnadní vám přístup k péči i objednání a
-            zároveň šetří vzácný čas zdravotnickému personálu.
-          </p> */}
+          <p>
+            Pro zabezpečenou komunikaci s pacientkami používáme systém{' '}
+            <strong>SmartMEDIX</strong>. Tento systém nahrazuje email a do velké
+            míry i telefon. Usnadní vám přístup k péči i objednání a zároveň
+            šetří vzácný čas zdravotnickému personálu.
+          </p>
         </div>
         <div className="photo">
           <img src="../../img/main-image-nobg.png" alt="foto ženy" />
@@ -79,8 +79,8 @@ export const HomePage = (): JSX.Element => {
       </div>
       <div className="main-blue container insurance">
         <h2>Smluvní pojišťovny</h2>
-        <p>
-          Jsme smluvními partnery těchto zdravotních pojišťoven v ČR:
+        <div>
+          <p>Jsme smluvními partnery těchto zdravotních pojišťoven v ČR:</p>
           <ul>
             <li>Všeobecná zdravotní pojišťovna (VZP)</li>
             <li>Vojenská zdravotní pojišťovna ČR (VoZP)</li>
@@ -88,7 +88,7 @@ export const HomePage = (): JSX.Element => {
             <li>Oborová zdravotní pojišťovna (OZP)</li>
             <li>Zdravotní pojišťovna Ministerstva vnitra ČR (ZPMV ČR)</li>
           </ul>
-        </p>
+        </div>
         <div className="logo-container flex">
           <img src="../../img/111.png" alt="VZP" />
           <img src="../../img/201.png" alt="VoZP" />
