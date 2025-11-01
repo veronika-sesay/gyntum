@@ -5,9 +5,29 @@
   border: 1px solid var(--murrey);
   border-radius: 20px;
   position: fixed;
-  top: 50%;
+  top: 10vh;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  text-align: left;
+  overflow-y: auto;
+  max-height: 80vh;
+  width: 90%;
+}
+
+/* Reset scroll when modal opens */
+.modal[open] {
+  scroll-behavior: auto;
+}
+
+.modal-content {
+  position: relative;
+  /* Ensure content container doesn't interfere with scroll */
+  height: auto;
+}
+
+.modal h3 {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .button {
@@ -21,6 +41,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {

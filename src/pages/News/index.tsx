@@ -24,7 +24,12 @@ export const News = (): JSX.Element => {
             <div>{item.body}</div>
             {item.modal && (
               <>
-                <button className="button" onClick={() => setModal(true)}>
+                <button
+                  className="button"
+                  onClick={() => {
+                    setModal(true);
+                  }}
+                >
                   Zobrazit více
                 </button>
                 <Modal openModal={modal} closeModal={() => setModal(false)}>
