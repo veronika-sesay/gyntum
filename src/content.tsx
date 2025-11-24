@@ -26,6 +26,7 @@ export const news: NewsItem[] = [
           Prosíme pacientky, které chtějí využít on-line služby a nemají u nás
           dosud uložený e-mail o jeho urychlené doplnění.
         </p>
+         <p><strong>Používejte prosím webovou přihlašovací stránku (proklik z tlačítka "Objednání online"), aplikace SmartMEDIX zatím není podporována!</strong></p>
         <p>Pro více informací klikněte níže.</p>
       </div>
     ),
@@ -35,6 +36,7 @@ export const news: NewsItem[] = [
           <div>
             <h3>Jak se přihlásit do SmartMEDIX?</h3>
             <ul>
+              <li><strong>Používejte prosím webovou přihlašovací stránku (proklik z tlačítka "Objednání online"), aplikace SmartMEDIX zatím není podporována!</strong></li>
               <li>
                 Při prvním přístupu do systému zvolte <u>"Jsem tu poprvé"</u>,
                 vyplníte svůj e-mail a klikněte <u>"Založit účet"</u>. Systém
@@ -102,7 +104,7 @@ export const news: NewsItem[] = [
             <ul>
               <li>
                 Pokud se nemůžete dostavit na plánovanou návštěvu, prosím zrušte
-                si svou objednávku nejpozději den předem sami v systému
+                si svou objednávku nejpozději den předem samy v systému
                 SmartMEDIX.
               </li>
             </ul>
@@ -112,7 +114,7 @@ export const news: NewsItem[] = [
             <ul>
               <li>
                 U nás neregistrované pacientky prosíme, aby se na registraci a
-                objednání domlouvali telefonicky u sestry.
+                objednání domlouvaly telefonicky u sestry.
               </li>
             </ul>
           </div>
