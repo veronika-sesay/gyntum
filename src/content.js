@@ -2,38 +2,38 @@ import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-run
 import { Link } from 'react-router-dom';
 export const news = [
     {
+        id: 0,
+        title: '28. 11. 2025 neordinujeme',
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Z d\u016Fvodu \u00FA\u010Dasti na kongresu neordinujeme v p\u00E1tek 28. 11. 2025." }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        modal: undefined,
+        expiryDate: '2025-11-28T23:59:59Z',
+    },
+    {
         id: 1,
+        title: 'Provoz o vánočních svátcích',
+        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "V obdob\u00ED v\u00E1no\u010Dn\u00EDch sv\u00E1tk\u016F budeme m\u00EDt upravenou ordina\u010Dn\u00ED dobu n\u00E1sledovn\u011B:" }), _jsxs("ul", { style: { textAlign: 'left', fontWeight: 'bold' }, children: [_jsx("li", { children: "22. 12. 2025: 8:00 - 16:00" }), _jsx("li", { children: "23. 12. 2025 - 26. 12. 2025: neordinujeme" }), _jsx("li", { children: "29. - 30. 12. 2025: 8:00 - 16:00" }), _jsx("li", { children: "31. 12. 2025 - 2. 1. 2026: neordinujeme" })] }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady mimo upravenou ordina\u010Dn\u00ED dobu pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "P\u0159ejeme klidn\u00E9 a radostn\u00E9 pro\u017Eit\u00ED v\u00E1no\u010Dn\u00EDch sv\u00E1tk\u016F a \u0161\u0165astn\u00FD vstup do nov\u00E9ho roku!" }) })] })),
+        modal: undefined,
+        expiryDate: '2026-01-02T23:59:59Z',
+    },
+    {
+        id: 3,
         title: 'Nový systém objednávání',
         body: (_jsxs("div", { children: [_jsx("p", { children: "Od 1. 11. 2025 jsme p\u0159e\u0161li na nov\u00FD syst\u00E9m objedn\u00E1v\u00E1n\u00ED SmartMEDIX, jedn\u00E1 se o jednoduch\u00FD a bezpe\u010Dn\u00FD zp\u016Fsob komunikace s ordinac\u00ED (m\u00EDsto e-mailu a telefonu), v\u0161e na jednom m\u00EDst\u011B, dostupn\u00E9 i mimo na\u0161e ordina\u010Dn\u00ED hodiny." }), _jsxs("p", { children: ["Pro p\u0159ihl\u00E1\u0161en\u00ED do tohoto syst\u00E9mu a vyu\u017Eit\u00ED v\u0161ech on-line slu\u017Eeb", ' ', _jsx("strong", { children: "je nutn\u00E9 m\u00EDt v ordinaci ulo\u017Een\u00FD kontaktn\u00ED e-mail. " }), ' ', "Pros\u00EDme pacientky, kter\u00E9 cht\u011Bj\u00ED vyu\u017E\u00EDt on-line slu\u017Eby a nemaj\u00ED u n\u00E1s dosud ulo\u017Een\u00FD e-mail o jeho urychlen\u00E9 dopln\u011Bn\u00ED."] }), _jsx("p", { children: _jsx("strong", { children: "Pou\u017E\u00EDvejte pros\u00EDm webovou p\u0159ihla\u0161ovac\u00ED str\u00E1nku (proklik z tla\u010D\u00EDtka \"Objedn\u00E1n\u00ED online\"), aplikace SmartMEDIX zat\u00EDm nen\u00ED podporov\u00E1na!" }) }), _jsx("p", { children: "Pro v\u00EDce informac\u00ED klikn\u011Bte n\u00ED\u017Ee." })] })),
         modal: (_jsx(_Fragment, { children: _jsxs("div", { children: [_jsxs("div", { children: [_jsx("h3", { children: "Jak se p\u0159ihl\u00E1sit do SmartMEDIX?" }), _jsxs("ul", { children: [_jsx("li", { children: _jsx("strong", { children: "Pou\u017E\u00EDvejte pros\u00EDm webovou p\u0159ihla\u0161ovac\u00ED str\u00E1nku (proklik z tla\u010D\u00EDtka \"Objedn\u00E1n\u00ED online\"), aplikace SmartMEDIX zat\u00EDm nen\u00ED podporov\u00E1na!" }) }), _jsxs("li", { children: ["P\u0159i prvn\u00EDm p\u0159\u00EDstupu do syst\u00E9mu zvolte ", _jsx("u", { children: "\"Jsem tu poprv\u00E9\"" }), ", vypln\u00EDte sv\u016Fj e-mail a klikn\u011Bte ", _jsx("u", { children: "\"Zalo\u017Eit \u00FA\u010Det\"" }), ". Syst\u00E9m v\u00E1s doprovod\u00ED dal\u0161\u00EDm postupem. T\u00EDm si vytvo\u0159\u00EDte vstupn\u00ED p\u0159ihla\u0161ovac\u00ED \u00FAdaje."] }), _jsx("li", { children: "P\u0159i ka\u017Ed\u00E9m dal\u0161\u00EDm vstupu u\u017E zad\u00E1v\u00E1te sv\u016Fj e-mail a zvolen\u00E9 heslo rovnou do p\u0159ihla\u0161ovac\u00ED obrazovky." })] })] }), _jsxs("div", { children: [_jsx("h3", { children: "Jak\u00E9 slu\u017Eby SmartMEDIX nab\u00EDz\u00ED?" }), _jsxs("ul", { children: [_jsx("li", { children: "Zasl\u00E1n\u00ED \u017E\u00E1dosti o recept \u2013 vypln\u00EDte p\u0159\u00EDslu\u0161n\u00FD formul\u00E1\u0159, uvedete n\u00E1zev a obvykl\u00E9 d\u00E1vkov\u00E1n\u00ED, po\u017Eadovan\u00E9 l\u00E9ky pros\u00EDm zad\u00E1vejte pokud mo\u017Eno do jednoho formul\u00E1\u0159e." }), _jsxs("li", { children: ["Zad\u00E1n\u00ED objedn\u00E1vky k n\u00E1v\u0161t\u011Bv\u011B l\u00E9ka\u0159ky \u2013 m\u00E1te k dispozici kalend\u00E1\u0159 s p\u0159ehledem term\u00EDn\u016F, vypln\u00EDte formul\u00E1\u0159 a po odesl\u00E1n\u00ED a zpracov\u00E1n\u00ED u l\u00E9ka\u0159ky v\u00E1m syst\u00E9m za\u0161le zp\u011Btnou informaci o uveden\u00E9 objedn\u00E1vce na v\u00E1\u0161 e-mail,", _jsxs("ul", { children: [_jsx("li", { children: "P\u0159i objedn\u00E1v\u00E1n\u00ED pros\u00EDm respektujte definovan\u00E9 typy vy\u0161et\u0159en\u00ED \u2013 viz v\u00FDb\u011Br v objedn\u00E1vkov\u00E9m formul\u00E1\u0159i. Nevhodn\u011B zvolen\u00E9 objedn\u00E1vky mohou b\u00FDt ze strany ordinace bez n\u00E1hrady zru\u0161eny." }), _jsx("li", { children: "Do d\u016Fvodu n\u00E1v\u0161t\u011Bvy p\u0159\u00EDpadn\u011B up\u0159esn\u011Bte va\u0161e obt\u00ED\u017Ee." }), _jsx("li", { children: "Takto zadanou objedn\u00E1vku si m\u016F\u017Eete nejpozd\u011Bji den p\u0159edem smazat." }), ' '] })] }), _jsx("li", { children: "P\u0159ehled term\u00EDn\u016F objedn\u00E1vek \u2013 m\u016F\u017Eete sledovat p\u0159ehled term\u00EDn\u016F sv\u00FDch budouc\u00EDch n\u00E1v\u0161t\u011Bv v ordinaci." }), _jsx("li", { children: "Zasl\u00E1n\u00ED zpr\u00E1vy \u2013 m\u016F\u017Eete l\u00E9ka\u0159ce zaslat informaci k prob\u00EDhaj\u00EDc\u00ED l\u00E9\u010Db\u011B nebo dotaz, omluvu z pl\u00E1novan\u00E9 n\u00E1v\u0161t\u011Bvy." }), _jsx("li", { children: "Zasl\u00E1n\u00ED dokumentu k zalo\u017Een\u00ED do karty \u2013 m\u016F\u017Eete do ordinace zaslat dokument form\u00E1tu pdf nebo obr\u00E1zek (nap\u0159. zpr\u00E1vu z vy\u0161et\u0159en\u00ED u specialisty apod.)." }), _jsx("li", { children: "L\u00E9ka\u0159ka m\u016F\u017Ee rychlou a kr\u00E1tkou informaci zaslat v\u00E1m." }), _jsx("li", { children: "P\u0159ehled term\u00EDn\u016F proveden\u00FDch o\u010Dkov\u00E1n\u00ED a preventivn\u00EDch prohl\u00EDdek, p\u0159\u00EDpadn\u011B term\u00EDn\u016F pro p\u0159\u00ED\u0161t\u00ED n\u00E1v\u0161t\u011Bvu." }), _jsx("li", { children: "M\u016F\u017Eete sledovat zp\u016Fsob vy\u0159\u00EDzen\u00ED sv\u00FDch po\u017Eadavk\u016F, o vy\u0159\u00EDzen\u00ED jste informov\u00E1ny e-mailem." })] })] }), _jsxs("div", { children: [_jsx("h3", { children: "Jak zru\u0161it objedn\u00E1vku?" }), _jsx("ul", { children: _jsx("li", { children: "Pokud se nem\u016F\u017Eete dostavit na pl\u00E1novanou n\u00E1v\u0161t\u011Bvu, pros\u00EDm zru\u0161te si svou objedn\u00E1vku nejpozd\u011Bji den p\u0159edem samy v syst\u00E9mu SmartMEDIX." }) })] }), _jsxs("div", { children: [_jsx("h3", { children: "Jak postupovat pokud je\u0161t\u011B nejsem registrovanou pacientkou?" }), _jsx("ul", { children: _jsx("li", { children: "U n\u00E1s neregistrovan\u00E9 pacientky pros\u00EDme, aby se na registraci a objedn\u00E1n\u00ED domlouvaly telefonicky u sestry." }) })] })] }) })),
         expiryDate: '2026-02-28T23:59:59Z',
     },
     {
-        id: 2,
-        title: '3. - 7. 11. 2025 neordinujeme',
-        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Z d\u016Fvodu dovolen\u00E9 neordinujeme v obdob\u00ED 3. - 7. 11. 2025." }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte bu\u010F", ' ', _jsx("a", { href: "https://gynportabor.cz/", children: "MUDr. \u010Cmuchovou" }), " (ordinace v Zubatce, Kpt. Jaro\u0161e\u00A02876) nebo Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
-        modal: undefined,
-        expiryDate: '2025-11-07T23:59:59Z',
-    },
-    {
-        id: 3,
+        id: 4,
         title: 'Sledujte náš instagram!',
         body: (_jsxs(_Fragment, { children: [_jsx("img", { src: "../../img/instagram-icon.svg", alt: "instagram" }), ' ', _jsxs("p", { children: ["Sledujte n\u00E1\u0161 instagram", ' ', _jsx("strong", { children: _jsx("a", { href: "https://www.instagram.com/gynekologie_tumova", children: "gynekologie_tumova" }) }), ' ', "a z\u00EDsk\u00E1vejte informace o na\u0161ich aktivit\u00E1ch."] })] })),
         modal: undefined,
         expiryDate: '2025-12-31T23:59:59Z',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Jett Plasma - revoluční ošetření pro ženy dostupné v naší ordinaci!',
         body: (_jsxs(_Fragment, { children: [_jsxs("p", { children: ["Dovolujeme si V\u00E1m nab\u00EDdnout o\u0161et\u0159en\u00ED p\u0159\u00EDstrojem Jett Plasma for Her II. Jedn\u00E1 se o certifikovan\u00FD zdravotnick\u00FD prost\u0159edek ur\u010Den\u00FD k omlazen\u00ED tk\u00E1n\u00ED ve vulvovagin\u00E1ln\u00ED oblasti.", ' '] }), _jsxs("p", { children: ["V\u00EDce informac\u00ED", ' ', _jsx(Link, { to: "/plasmajett", onClick: () => window.scrollTo(0, 0), children: "zde." })] })] })),
         modal: undefined,
         expiryDate: '2026-12-31T23:59:59Z',
-    },
-    {
-        id: 5,
-        title: 'Naše ordinace je přestěhována!',
-        body: (_jsx(_Fragment, { children: _jsxs("p", { children: ["St\u011Bhov\u00E1n\u00ED je ji\u017E dokon\u010Den\u00E9 a nov\u011B s\u00EDdl\u00EDme na adrese", _jsx("strong", { children: " Kpt. Jaro\u0161e\u00A024, 390\u00A003" }), ". Vchod do budovy je vedle kav\u00E1rny, ordinace se nach\u00E1z\u00ED v 2. pat\u0159e."] }) })),
-        modal: undefined,
-        expiryDate: '2025-04-30T23:59:59Z',
     },
 ];
