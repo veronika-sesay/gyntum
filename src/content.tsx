@@ -10,7 +10,58 @@ export interface NewsItem {
 
 export const news: NewsItem[] = [
   {
+    id: 0,
+    title: '28. 11. 2025 neordinujeme',
+    body: (
+      <>
+        <p>Z důvodu účasti na kongresu neordinujeme v pátek 28. 11. 2025.</p>
+        <p>
+          S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
+          Nemocnice Tábor (ambulance tel.:{' '}
+          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
+          <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
+        </p>
+        {/* <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
+          Zubatce, Kpt. Jaroše&nbsp;2876)  */}
+        <p>
+          <strong>Děkujeme za pochopení!</strong>
+        </p>
+      </>
+    ),
+    modal: undefined,
+    expiryDate: '2025-11-28T23:59:59Z',
+  },
+   {
     id: 1,
+    title: 'Provoz o vánočních svátcích',
+    body: (
+      <>
+        <p>V období vánočních svátků budeme mít upravenou ordinační dobu následovně:</p>
+        <ul style={{ textAlign: 'left', fontWeight: 'bold' }}>
+          <li>22. 12. 2025: 8:00 - 16:00</li>
+          <li>23. 12. 2025 - 26. 12. 2025: neordinujeme</li>
+          <li>29. - 30. 12. 2025: 8:00 - 16:00</li>
+          <li>31. 12. 2025 - 2. 1. 2026: neordinujeme</li>
+        </ul>
+        <p>
+          S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
+          Nemocnice Tábor (ambulance tel.:{' '}
+          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
+          <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
+          {/* </p>
+          <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
+            Zubatce, Kpt. Jaroše&nbsp;2876) 
+          <p> */}
+          {/* <strong>Děkujeme za pochopení!</strong> */}
+        </p>
+        <p><strong>Přejeme klidné a radostné prožití vánočních svátků a šťastný vstup do nového roku!</strong></p>
+      </>
+    ),
+    modal: undefined,
+    expiryDate: '2026-01-02T23:59:59Z',
+  },
+  {
+    id: 3,
     title: 'Nový systém objednávání',
     body: (
       <div>
@@ -124,29 +175,7 @@ export const news: NewsItem[] = [
     expiryDate: '2026-02-28T23:59:59Z',
   },
   {
-    id: 2,
-    title: '3. - 7. 11. 2025 neordinujeme',
-    body: (
-      <>
-        <p>Z důvodu dovolené neordinujeme v období 3. - 7. 11. 2025.</p>
-        <p>
-          S akutními případy prosím navštivte buď{' '}
-          <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
-          Zubatce, Kpt. Jaroše&nbsp;2876) nebo Gynekologicko-porodnické oddělení
-          Nemocnice Tábor (ambulance tel.:{' '}
-          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
-          <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
-        </p>
-        <p>
-          <strong>Děkujeme za pochopení!</strong>
-        </p>
-      </>
-    ),
-    modal: undefined,
-    expiryDate: '2025-11-07T23:59:59Z',
-  },
-  {
-    id: 3,
+    id: 4,
     title: 'Sledujte náš instagram!',
     body: (
       <>
@@ -166,7 +195,7 @@ export const news: NewsItem[] = [
     expiryDate: '2025-12-31T23:59:59Z',
   },
   {
-    id: 4,
+    id: 5,
     title:
       'Jett Plasma - revoluční ošetření pro ženy dostupné v naší ordinaci!',
     body: (
@@ -186,21 +215,5 @@ export const news: NewsItem[] = [
     ),
     modal: undefined,
     expiryDate: '2026-12-31T23:59:59Z',
-  },
-
-  {
-    id: 5,
-    title: 'Naše ordinace je přestěhována!',
-    body: (
-      <>
-        <p>
-          Stěhování je již dokončené a nově sídlíme na adrese
-          <strong> Kpt. Jaroše&nbsp;24, 390&nbsp;03</strong>. Vchod do budovy je
-          vedle kavárny, ordinace se nachází v 2. patře.
-        </p>
-      </>
-    ),
-    modal: undefined,
-    expiryDate: '2025-04-30T23:59:59Z',
   },
 ];
