@@ -44,7 +44,7 @@ export const news: NewsItem[] = [
           <li>31. 12. 2025 - 2. 1. 2026: neordinujeme</li>
         </ul>
         <p>
-          S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
+          S akutními případy mimo upravenou ordinační dobu prosím navštivte Gynekologicko-porodnické oddělení
           Nemocnice Tábor (ambulance tel.:{' '}
           <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
           <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
