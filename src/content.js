@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 export const news = [
     {
         id: 0,
-        title: '28. 11. 2025 neordinujeme',
-        body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "Z d\u016Fvodu \u00FA\u010Dasti na kongresu neordinujeme v p\u00E1tek 28. 11. 2025." }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        title: '16. 1. 2026 neordinujeme',
+        body: (_jsxs(_Fragment, { children: [_jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
         modal: undefined,
-        expiryDate: '2025-11-28T23:59:59Z',
+        expiryDate: '2026-01-16T23:59:59Z',
     },
     {
         id: 1,
@@ -27,7 +27,7 @@ export const news = [
         title: 'Sledujte náš instagram!',
         body: (_jsxs(_Fragment, { children: [_jsx("img", { src: "../../img/instagram-icon.svg", alt: "instagram" }), ' ', _jsxs("p", { children: ["Sledujte n\u00E1\u0161 instagram", ' ', _jsx("strong", { children: _jsx("a", { href: "https://www.instagram.com/gynekologie_tumova", children: "gynekologie_tumova" }) }), ' ', "a z\u00EDsk\u00E1vejte informace o na\u0161ich aktivit\u00E1ch."] })] })),
         modal: undefined,
-        expiryDate: '2025-12-31T23:59:59Z',
+        expiryDate: '2026-12-31T23:59:59Z',
     },
     {
         id: 5,
