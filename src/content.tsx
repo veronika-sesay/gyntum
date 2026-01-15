@@ -11,10 +11,10 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 0,
-    title: '28. 11. 2025 neordinujeme',
+    title: '16. 1. 2026 neordinujeme',
     body: (
       <>
-        <p>Z důvodu účasti na kongresu neordinujeme v pátek 28. 11. 2025.</p>
+        {/* <p>Z důvodu účasti na kongresu neordinujeme v pátek 28. 11. 2025.</p> */}
         <p>
           S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
           Nemocnice Tábor (ambulance tel.:{' '}
@@ -29,7 +29,7 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-11-28T23:59:59Z',
+    expiryDate: '2026-01-16T23:59:59Z',
   },
    {
     id: 1,
@@ -192,7 +192,7 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2025-12-31T23:59:59Z',
+    expiryDate: '2026-12-31T23:59:59Z',
   },
   {
     id: 5,
