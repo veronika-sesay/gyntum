@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 export const news = [
     {
         id: 0,
-        title: '16. 1. 2026 neordinujeme',
-        body: (_jsxs(_Fragment, { children: [_jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
+        title: 'Provoz o jarních prázdninách',
+        body: (_jsxs(_Fragment, { children: [_jsxs("p", { children: ["V obdob\u00ED jarn\u00EDch pr\u00E1zdnin ", _jsx("strong", { children: "(2. - 6. 2. 2026)" }), ' ', "ordinujeme pouze od pond\u011Bl\u00ED do st\u0159edy. Ve \u010Dtvrtek a p\u00E1tek neordinujeme."] }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", ' ', _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", ' ', _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED!" }) })] })),
         modal: undefined,
-        expiryDate: '2026-01-16T23:59:59Z',
+        expiryDate: '2026-02-06T23:59:59Z',
     },
     {
         id: 1,
