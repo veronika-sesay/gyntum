@@ -9,6 +9,27 @@
   padding: 2%;
   flex: 1 1 50%;
   text-align: center;
+  /* Initial hidden state */
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.8s ease;
+}
+
+/* Animation class added by JavaScript */
+.text.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .photo {
@@ -19,6 +40,27 @@
   overflow: clip;
   position: relative;
   top: 0;
+  /* Initial hidden state */
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.8s ease;
+}
+
+/* Animation class added by JavaScript */
+.photo.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .photo img {
@@ -27,6 +69,13 @@
   height: auto;
   object-fit: cover;
   opacity: 0.9;
+  /* Subtle hover effect */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.photo img:hover {
+  transform: scale(1.02);
+  opacity: 1;
 }
 
 .operation {
@@ -47,6 +96,32 @@
   border: 1px solid var(--murrey);
   border-radius: 20px;
   text-align: center;
+  /* Initial hidden state */
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease, box-shadow 0.3s ease;
+}
+
+/* Animation class added by JavaScript */
+.hours.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hours:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .row {
@@ -62,6 +137,16 @@
   padding: 2%;
   flex: 1 1 65%;
   text-align: center;
+  /* Initial hidden state */
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+/* Animation class added by JavaScript */
+.news.animate {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .news__item {
@@ -94,6 +179,16 @@
 
 .insurance {
   padding: 2% 2% 5% 2%;
+  /* Initial hidden state */
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.8s ease;
+}
+
+/* Animation class added by JavaScript */
+.insurance.animate {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .logo-container {
@@ -109,6 +204,7 @@
   max-width: 100px;
   max-height: 45px;
   height: auto;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -186,4 +282,49 @@
   .insurance {
     font-size: 1.2rem;
   }
+}
+
+/* General animations for headings */
+h1 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.8s ease;
+}
+
+h1.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.8s ease;
+}
+
+h2.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Smooth transitions for all interactive elements - unified approach */
+button,
+a {
+  transition: all 0.3s ease;
+}
+
+button:hover,
+a:hover {
+  transform: translateY(-2px);
 }
