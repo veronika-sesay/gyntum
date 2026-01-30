@@ -1,8 +1,39 @@
+import { useEffect } from 'react';
 import './style.css';
 import { News } from '../News';
 import { Map } from '../Map';
 
 export const HomePage = (): JSX.Element => {
+  useEffect(() => {
+    // Intersection Observer for scroll animations
+    const observerOptions: { threshold: number; rootMargin: string } = {
+      threshold: 0.1, // Trigger when 10% of element is visible
+      rootMargin: '0px 0px -50px 0px', // Trigger a bit before element fully enters viewport
+    };
+
+    const observer: IntersectionObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+          }
+        });
+      },
+      observerOptions,
+    );
+
+    // Select all elements to animate
+    const elementsToAnimate: NodeListOf<Element> = document.querySelectorAll(
+      '.text, .photo, .hours, .news, .insurance, h1, h2',
+    );
+    elementsToAnimate.forEach((el) => observer.observe(el));
+
+    // Cleanup
+    return () => {
+      elementsToAnimate.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
+
   return (
     <>
       <div className="main-white flex container intro">

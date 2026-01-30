@@ -11,10 +11,14 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 0,
-    title: '16. 1. 2026 neordinujeme',
+    title: 'Provoz o jarních prázdninách',
     body: (
       <>
-        {/* <p>Z důvodu účasti na kongresu neordinujeme v pátek 28. 11. 2025.</p> */}
+        <p>
+          V období jarních prázdnin <strong>(2. - 6. 2. 2026)</strong>{' '}
+          ordinujeme pouze od pondělí do středy. Ve čtvrtek a pátek
+          neordinujeme.
+        </p>
         <p>
           S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
           Nemocnice Tábor (ambulance tel.:{' '}
@@ -29,14 +33,17 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2026-01-16T23:59:59Z',
+    expiryDate: '2026-02-06T23:59:59Z',
   },
-   {
+  {
     id: 1,
     title: 'Provoz o vánočních svátcích',
     body: (
       <>
-        <p>V období vánočních svátků budeme mít upravenou ordinační dobu následovně:</p>
+        <p>
+          V období vánočních svátků budeme mít upravenou ordinační dobu
+          následovně:
+        </p>
         <ul style={{ textAlign: 'left', fontWeight: 'bold' }}>
           <li>22. 12. 2025: 8:00 - 16:00</li>
           <li>23. 12. 2025 - 26. 12. 2025: neordinujeme</li>
@@ -44,8 +51,8 @@ export const news: NewsItem[] = [
           <li>31. 12. 2025 - 2. 1. 2026: neordinujeme</li>
         </ul>
         <p>
-          S akutními případy mimo upravenou ordinační dobu prosím navštivte Gynekologicko-porodnické oddělení
-          Nemocnice Tábor (ambulance tel.:{' '}
+          S akutními případy mimo upravenou ordinační dobu prosím navštivte
+          Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance tel.:{' '}
           <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
           <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
           {/* </p>
@@ -54,7 +61,12 @@ export const news: NewsItem[] = [
           <p> */}
           {/* <strong>Děkujeme za pochopení!</strong> */}
         </p>
-        <p><strong>Přejeme klidné a radostné prožití vánočních svátků a šťastný vstup do nového roku!</strong></p>
+        <p>
+          <strong>
+            Přejeme klidné a radostné prožití vánočních svátků a šťastný vstup
+            do nového roku!
+          </strong>
+        </p>
       </>
     ),
     modal: undefined,
@@ -77,7 +89,12 @@ export const news: NewsItem[] = [
           Prosíme pacientky, které chtějí využít on-line služby a nemají u nás
           dosud uložený e-mail o jeho urychlené doplnění.
         </p>
-         <p><strong>Používejte prosím webovou přihlašovací stránku (proklik z tlačítka "Objednání online"), aplikace SmartMEDIX zatím není podporována!</strong></p>
+        <p>
+          <strong>
+            Používejte prosím webovou přihlašovací stránku (proklik z tlačítka
+            "Objednání online"), aplikace SmartMEDIX zatím není podporována!
+          </strong>
+        </p>
         <p>Pro více informací klikněte níže.</p>
       </div>
     ),
@@ -87,7 +104,13 @@ export const news: NewsItem[] = [
           <div>
             <h3>Jak se přihlásit do SmartMEDIX?</h3>
             <ul>
-              <li><strong>Používejte prosím webovou přihlašovací stránku (proklik z tlačítka "Objednání online"), aplikace SmartMEDIX zatím není podporována!</strong></li>
+              <li>
+                <strong>
+                  Používejte prosím webovou přihlašovací stránku (proklik z
+                  tlačítka "Objednání online"), aplikace SmartMEDIX zatím není
+                  podporována!
+                </strong>
+              </li>
               <li>
                 Při prvním přístupu do systému zvolte <u>"Jsem tu poprvé"</u>,
                 vyplníte svůj e-mail a klikněte <u>"Založit účet"</u>. Systém
