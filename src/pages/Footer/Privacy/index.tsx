@@ -1,4 +1,4 @@
-import './style.css';
+import "./style.css";
 
 export const Privacy = (): JSX.Element => {
   return (
@@ -8,7 +8,7 @@ export const Privacy = (): JSX.Element => {
         <li>
           <h4>Kdo jsme</h4>
           <p>
-            Tato webová stránka je provozována společností{' '}
+            Tato webová stránka je provozována společností{" "}
             <em>Ordinace MUDr. Jana Tůmová, IČO 01783840</em>. Ochrana vašich
             osobních údajů je pro nás důležitá, a proto se snažíme zpracovávat
             minimální množství dat v souladu s GDPR (Obecné nařízení o ochraně
@@ -24,7 +24,7 @@ export const Privacy = (): JSX.Element => {
         </li>
         <li>
           <h4>Použití souborů cookies</h4>
-          <p>
+          <div>
             Na této webové stránce:
             <p>
               ✅ Neukládáme žádné sledovací cookies (např. pro reklamu nebo
@@ -37,13 +37,13 @@ export const Privacy = (): JSX.Element => {
             <p>
               ✅ Google Maps může nastavovat své vlastní cookies pro zobrazení
               mapy – jejich podmínky najdete v zásadách ochrany osobních údajů
-              společnosti Google{' '}
+              společnosti Google{" "}
               <a href="https://policies.google.com/privacy?hl=cs">
                 (odkaz zde)
               </a>
               .
             </p>
-          </p>
+          </div>
         </li>
         <li>
           <h4>Sdílení údajů s třetími stranami</h4>
@@ -74,7 +74,7 @@ export const Privacy = (): JSX.Element => {
           <h4>Kontakt</h4>
           <p>
             Pokud máte jakékoli dotazy ohledně ochrany osobních údajů na této
-            webové stránce, můžete nás kontaktovat na e-mailu:{' '}
+            webové stránce, můžete nás kontaktovat na e-mailu:{" "}
             <a href="mailto:info@gyntum.cz">info@gyntum.cz</a>.
           </p>
         </li>

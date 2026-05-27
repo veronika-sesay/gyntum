@@ -1,5 +1,3 @@
-import "./style.css";
-
 export const SmartMedix = (): JSX.Element => {
   return (
     <div className="container smartmedix">
