@@ -1,6 +1,7 @@
-import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
-import { Link } from 'react-router-dom';
-import './style.css';
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Link } from "react-router-dom";
+import "./style.css";
 export const Footer = () => {
-    return (_jsx(_Fragment, { children: _jsxs("div", { className: "footer", children: [_jsxs("div", { className: "footer__links container", children: [_jsx(Link, { to: "/privacy", children: "Z\u00E1sady ochrany osobn\u00EDch \u00FAdaj\u016F" }), _jsx(Link, { to: "/price", children: "Cen\u00EDk slu\u017Eeb" })] }), _jsx("p", { className: "footer__copyright", children: "\u00A9 2025 Veronika Sesay. V\u0161echna pr\u00E1va vyhrazena." })] }) }));
+    const currentYear = new Date().getFullYear();
+    return (_jsxs("footer", { className: "footer", children: [_jsxs("section", { className: "footer__info container", children: [_jsx("div", { className: "footer__info--address", children: _jsxs("address", { children: [_jsx("p", { children: "MUDr. Jana T\u016Fmov\u00E1" }), _jsx("p", { children: "I\u010CO: 01783840" }), _jsx("p", { children: "Fyzick\u00E1 osoba zapsan\u00E1 v \u017Divnostensk\u00E9m rejst\u0159\u00EDku veden\u00E9m M\u011Bstsk\u00FDm \u00FA\u0159adem v T\u00E1bo\u0159e" }), _jsx("p", { children: "S\u00EDdlo: Pstruhov\u00E1 435, 391 11, Plan\u00E1 nad Lu\u017Enic\u00ED - Strkov" }), _jsx("p", { children: "I\u010CZ 39401000 | I\u010CP 39401001" })] }) }), _jsxs("div", { className: "footer__info--links", children: [_jsx("h3", { children: "U\u017Eite\u010Dn\u00E9 informace" }), _jsxs("ul", { children: [_jsx("li", { children: _jsx(Link, { to: "/price", children: "Cen\u00EDk slu\u017Eeb" }) }), _jsx("li", { children: _jsx(Link, { to: "/smartmedix", children: "SmartMedix" }) }), _jsx("li", { children: _jsx(Link, { to: "/privacy", children: "Z\u00E1sady ochrany osobn\u00EDch \u00FAdaj\u016F" }) })] })] })] }), _jsx("section", { className: "footer__copyright container", children: _jsxs("div", { children: [_jsxs("p", { children: ["\u00A9 ", currentYear, " Gyntum. V\u0161echna pr\u00E1va vyhrazena."] }), _jsx("p", { children: "Web design: Veronika Sesay" })] }) })] }));
 };

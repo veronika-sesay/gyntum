@@ -70,7 +70,9 @@
   object-fit: cover;
   opacity: 0.9;
   /* Subtle hover effect */
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .photo img:hover {
@@ -99,7 +101,9 @@
   /* Initial hidden state */
   opacity: 0;
   transform: translateY(30px);
-  transition: all 0.8s ease, box-shadow 0.3s ease;
+  transition:
+    all 0.8s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Animation class added by JavaScript */

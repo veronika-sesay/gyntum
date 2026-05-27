@@ -1,39 +1,8 @@
-import { useEffect } from 'react';
-import './style.css';
-import { News } from '../News';
-import { Map } from '../Map';
+import "./style.css";
+import { News } from "../News";
+import { Map } from "../Map";
 
 export const HomePage = (): JSX.Element => {
-  useEffect(() => {
-    // Intersection Observer for scroll animations
-    const observerOptions: { threshold: number; rootMargin: string } = {
-      threshold: 0.1, // Trigger when 10% of element is visible
-      rootMargin: '0px 0px -50px 0px', // Trigger a bit before element fully enters viewport
-    };
-
-    const observer: IntersectionObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('animate');
-          }
-        });
-      },
-      observerOptions,
-    );
-
-    // Select all elements to animate
-    const elementsToAnimate: NodeListOf<Element> = document.querySelectorAll(
-      '.text, .photo, .hours, .news, .insurance, h1, h2',
-    );
-    elementsToAnimate.forEach((el) => observer.observe(el));
-
-    // Cleanup
-    return () => {
-      elementsToAnimate.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
-
   return (
     <>
       <div className="main-white flex container intro">
@@ -46,7 +15,7 @@ export const HomePage = (): JSX.Element => {
             odpovídá potřebám každé pacientky.
           </p>
           <p>
-            Pro zabezpečenou komunikaci s pacientkami používáme systém{' '}
+            Pro zabezpečenou komunikaci s pacientkami používáme systém{" "}
             <strong>SmartMEDIX</strong>. Tento systém nahrazuje email a do velké
             míry i telefon. Usnadní vám přístup k péči i objednání a zároveň
             šetří vzácný čas zdravotnickému personálu.
@@ -97,7 +66,7 @@ export const HomePage = (): JSX.Element => {
         <h2>Kde nás najdete?</h2>
         <div className="text">
           <p>
-            Ordinace se nachází v nově zrekonstruované budově{' '}
+            Ordinace se nachází v nově zrekonstruované budově{" "}
             <a href="https://klokotkatabor.cz/">Klokotky</a>. Vchod do budovy je
             vedle kavárny, ordinace se nachází v 2. patře, v budově je výtah.
           </p>
