@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import './style.css';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import "./style.css";
 
 export const Navigation = (): JSX.Element => {
   const [navOpen, setNavOpen] = useState<boolean>(false);
@@ -43,7 +43,7 @@ export const Navigation = (): JSX.Element => {
             {/* <Link to="/contacts">Kontakty</Link> */}
             <Link to="/services">Služby</Link>
             <div className="emmy">
-              {' '}
+              {" "}
               <a
                 href="https://v3.smartmedix.net/?reg=1783801"
                 target="_blank"
@@ -61,9 +61,9 @@ export const Navigation = (): JSX.Element => {
           </Link>
           <button
             onClick={() => setNavOpen(!navOpen)}
-            className={navOpen ? 'nav-btn--closed' : 'nav-btn'}
+            className={navOpen ? "nav-btn--closed" : "nav-btn"}
           ></button>
-          <div className={navOpen ? 'nav-mobile' : 'menu-mobile--closed'}>
+          <div className={navOpen ? "nav-mobile" : "menu-mobile--closed"}>
             <HashLink to="/#news" smooth onClick={closeNav}>
               Aktuality
             </HashLink>

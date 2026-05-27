@@ -11,13 +11,11 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 0,
-    title: 'Provoz o jarních prázdninách',
+    title: '29. 5. 2026 neordinujeme',
     body: (
       <>
         <p>
-          V období jarních prázdnin <strong>(2. - 6. 2. 2026)</strong>{' '}
-          ordinujeme pouze od pondělí do středy. Ve čtvrtek a pátek
-          neordinujeme.
+          V pátek 29. 5. 2026 je ordinace uzavřena z důvodu účasti na lékařském kongresu.
         </p>
         <p>
           S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
@@ -33,7 +31,7 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2026-02-06T23:59:59Z',
+    expiryDate: '2026-05-29T23:59:59Z',
   },
   {
     id: 1,
