@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export interface NewsItem {
   id: number;
@@ -11,38 +11,38 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 0,
-    title: '29. 5. 2026 neordinujeme',
+    title: "Provoz o letních prázdninách",
     body: (
       <>
-        <p>
-          V pátek 29. 5. 2026 je ordinace uzavřena z důvodu účasti na lékařském kongresu.
-        </p>
+        <p>Během letních prázdnin končí pracovní doba v pondělí již v 16:00.</p>
+        <h3>Dovolená:</h3>
+        <p>3.-14. 8. 2026</p>
         <p>
           S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
-          Nemocnice Tábor (ambulance tel.:{' '}
-          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
+          Nemocnice Tábor (ambulance tel.:{" "}
+          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{" "}
           <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
         </p>
         {/* <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
           Zubatce, Kpt. Jaroše&nbsp;2876)  */}
         <p>
-          <strong>Děkujeme za pochopení!</strong>
+          <strong>Děkujeme za pochopení a přejeme krásné léto!</strong>
         </p>
       </>
     ),
     modal: undefined,
-    expiryDate: '2026-05-29T23:59:59Z',
+    expiryDate: "2026-08-31T23:59:59Z",
   },
   {
     id: 1,
-    title: 'Provoz o vánočních svátcích',
+    title: "Provoz o vánočních svátcích",
     body: (
       <>
         <p>
           V období vánočních svátků budeme mít upravenou ordinační dobu
           následovně:
         </p>
-        <ul style={{ textAlign: 'left', fontWeight: 'bold' }}>
+        <ul style={{ textAlign: "left", fontWeight: "bold" }}>
           <li>22. 12. 2025: 8:00 - 16:00</li>
           <li>23. 12. 2025 - 26. 12. 2025: neordinujeme</li>
           <li>29. - 30. 12. 2025: 8:00 - 16:00</li>
@@ -50,8 +50,8 @@ export const news: NewsItem[] = [
         </ul>
         <p>
           S akutními případy mimo upravenou ordinační dobu prosím navštivte
-          Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance tel.:{' '}
-          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{' '}
+          Gynekologicko-porodnické oddělení Nemocnice Tábor (ambulance tel.:{" "}
+          <a href="tel:381605362">381&nbsp;605&nbsp;362</a>,{" "}
           <a href="tel:381605363">381&nbsp;605&nbsp;363</a>).
           {/* </p>
           <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
@@ -68,11 +68,11 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2026-01-02T23:59:59Z',
+    expiryDate: "2026-01-02T23:59:59Z",
   },
   {
     id: 3,
-    title: 'Nový systém objednávání',
+    title: "Nový systém objednávání",
     body: (
       <div>
         <p>
@@ -82,8 +82,8 @@ export const news: NewsItem[] = [
           ordinační hodiny.
         </p>
         <p>
-          Pro přihlášení do tohoto systému a využití všech on-line služeb{' '}
-          <strong>je nutné mít v ordinaci uložený kontaktní e-mail. </strong>{' '}
+          Pro přihlášení do tohoto systému a využití všech on-line služeb{" "}
+          <strong>je nutné mít v ordinaci uložený kontaktní e-mail. </strong>{" "}
           Prosíme pacientky, které chtějí využít on-line služby a nemají u nás
           dosud uložený e-mail o jeho urychlené doplnění.
         </p>
@@ -144,7 +144,7 @@ export const news: NewsItem[] = [
                   <li>
                     Takto zadanou objednávku si můžete nejpozději den předem
                     smazat.
-                  </li>{' '}
+                  </li>{" "}
                 </ul>
               </li>
               <li>
@@ -193,41 +193,41 @@ export const news: NewsItem[] = [
         </div>
       </>
     ),
-    expiryDate: '2026-02-28T23:59:59Z',
+    expiryDate: "2026-02-28T23:59:59Z",
   },
   {
     id: 4,
-    title: 'Sledujte náš instagram!',
+    title: "Sledujte náš instagram!",
     body: (
       <>
-        <img src="../../img/instagram-icon.svg" alt="instagram" />{' '}
+        <img src="../../img/instagram-icon.svg" alt="instagram" />{" "}
         <p>
-          Sledujte náš instagram{' '}
+          Sledujte náš instagram{" "}
           <strong>
             <a href="https://www.instagram.com/gynekologie_tumova">
               gynekologie_tumova
             </a>
-          </strong>{' '}
+          </strong>{" "}
           a získávejte informace o našich aktivitách.
         </p>
       </>
     ),
     modal: undefined,
-    expiryDate: '2026-12-31T23:59:59Z',
+    expiryDate: "2026-12-31T23:59:59Z",
   },
   {
     id: 5,
     title:
-      'Jett Plasma - revoluční ošetření pro ženy dostupné v naší ordinaci!',
+      "Jett Plasma - revoluční ošetření pro ženy dostupné v naší ordinaci!",
     body: (
       <>
         <p>
           Dovolujeme si Vám nabídnout ošetření přístrojem Jett Plasma for Her
           II. Jedná se o certifikovaný zdravotnický prostředek určený k omlazení
-          tkání ve vulvovaginální oblasti.{' '}
+          tkání ve vulvovaginální oblasti.{" "}
         </p>
         <p>
-          Více informací{' '}
+          Více informací{" "}
           <Link to="/plasmajett" onClick={() => window.scrollTo(0, 0)}>
             zde.
           </Link>
@@ -235,6 +235,6 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: '2026-12-31T23:59:59Z',
+    expiryDate: "2026-12-31T23:59:59Z",
   },
 ];
