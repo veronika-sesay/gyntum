@@ -31,7 +31,7 @@ export const HomePage = (): JSX.Element => {
           <div className="row">
             <h4>Pondělí</h4>
             <p>10:00 - 12:30</p>
-            <p>13:00 - 18:00</p>
+            <p>13:00 - 16:00</p>
           </div>
           <div className="row">
             <h4>Úterý</h4>
