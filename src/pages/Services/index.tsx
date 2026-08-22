@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './style.css';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import "./style.css";
 
 export const Services = (): JSX.Element => {
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -25,21 +25,21 @@ export const Services = (): JSX.Element => {
               <img src="../../img/doctor-hand.svg" alt="obrázek doktora" />
             </div>
             <div className="item-text">
-              {' '}
+              {" "}
               <h2>Gynekologická péče</h2>
               <div className="arrow">
                 <img
                   className="arrow"
                   src="../../img/arrow-down-icon.svg"
                   alt="šipka - otevřít"
-                  onClick={() => toggleAccordion('gynekologicka-pece')}
+                  onClick={() => toggleAccordion("gynekologicka-pece")}
                 />
               </div>
               <div
                 className={
-                  openSection === 'gynekologicka-pece'
-                    ? 'item-text--displayed'
-                    : 'display-none'
+                  openSection === "gynekologicka-pece"
+                    ? "accordion-content accordion-content--open"
+                    : "accordion-content"
                 }
               >
                 <ul>
@@ -48,7 +48,7 @@ export const Services = (): JSX.Element => {
                     pravidelná péče o vaše zdraví a prevence onemocnění.
                   </li>
                   <li>
-                    <strong>Prevence karcinomu děložního hrdla:</strong>{' '}
+                    <strong>Prevence karcinomu děložního hrdla:</strong>{" "}
                     cytologie a kolposkopie pro včasnou detekci.
                   </li>
                   <li>
@@ -62,7 +62,7 @@ export const Services = (): JSX.Element => {
                     karcinomu děložního hrdla.
                   </li>
                   <li>
-                    <strong>Diagnostika a léčba gynekologických potíží:</strong>{' '}
+                    <strong>Diagnostika a léčba gynekologických potíží:</strong>{" "}
                     řešení problémů jako jsou záněty, endometrióza, myomy nebo
                     nepravidelnosti cyklu.
                   </li>
@@ -105,14 +105,14 @@ export const Services = (): JSX.Element => {
                   className="arrow"
                   src="../../img/arrow-down-icon.svg"
                   alt="šipka - otevřít"
-                  onClick={() => toggleAccordion('pece-o-tehotne')}
+                  onClick={() => toggleAccordion("pece-o-tehotne")}
                 />
               </div>
               <div
                 className={
-                  openSection === 'pece-o-tehotne'
-                    ? 'item-text--displayed'
-                    : 'display-none'
+                  openSection === "pece-o-tehotne"
+                    ? "accordion-content accordion-content--open"
+                    : "accordion-content"
                 }
               >
                 <ul>
@@ -146,21 +146,21 @@ export const Services = (): JSX.Element => {
                   className="arrow"
                   src="../../img/arrow-down-icon.svg"
                   alt="šipka - otevřít"
-                  onClick={() => toggleAccordion('nadstandardni-sluzby')}
+                  onClick={() => toggleAccordion("nadstandardni-sluzby")}
                 />
               </div>
               <div
                 className={
-                  openSection === 'nadstandardni-sluzby'
-                    ? 'item-text--displayed'
-                    : 'display-none'
+                  openSection === "nadstandardni-sluzby"
+                    ? "accordion-content accordion-content--open"
+                    : "accordion-content"
                 }
               >
                 <ul>
                   <li>
                     <strong>Jett Plasma:</strong> moderní technologie, která
                     využívá plazmové energie k ošetření gynekologických potíží a
-                    zlepšení kvality života.{' '}
+                    zlepšení kvality života.{" "}
                     <Link to="/plasmajett">Více informací zde.</Link>
                   </li>
                   <li>
@@ -194,10 +194,10 @@ export const Services = (): JSX.Element => {
           </div>
         </div>
         <div className="item-text center">
-          Ceník služeb nehrazených z veřejného zdravotního pojištění najdete{' '}
+          Ceník služeb nehrazených z veřejného zdravotního pojištění najdete{" "}
           <Link
             to="/price"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             zde
           </Link>

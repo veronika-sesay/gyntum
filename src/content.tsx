@@ -11,12 +11,15 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 0,
-    title: "Provoz o letních prázdninách",
+    title: "Dovolená a provoz v září 2026",
     body: (
       <>
-        <p>Během letních prázdnin končí pracovní doba v pondělí již v 16:00.</p>
+        <p>
+          Během letních prázdnin a v září končí pracovní doba v pondělí již v
+          16:00.
+        </p>
         <h3>Dovolená:</h3>
-        <p>3.-14. 8. 2026</p>
+        <p>31. 8.-4. 9. 2026</p>
         <p>
           S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
           Nemocnice Tábor (ambulance tel.:{" "}

@@ -52,7 +52,7 @@ const App = () => {
     // Use MutationObserver to watch for new elements
     const mutationObserver = new MutationObserver(() => {
       const elementsToAnimate: NodeListOf<Element> = document.querySelectorAll(
-        ".text, .photo, .hours, .news, .insurance, h1, h2, h3, h4"
+        ".text, .photo, .hours, .news, .insurance, .care-items, .services > .item-text, h1, h2, h3, h4"
       );
       elementsToAnimate.forEach((el) => {
         if (!el.classList.contains("animate")) {
@@ -69,7 +69,7 @@ const App = () => {
 
     // Initial observation
     const elementsToAnimate: NodeListOf<Element> = document.querySelectorAll(
-      ".text, .photo, .hours, .news, .insurance, h1, h2, h3, h4"
+      ".text, .photo, .hours, .news, .insurance, .care-items, .services > .item-text, h1, h2, h3, h4"
     );
     elementsToAnimate.forEach((el) => observer.observe(el));
 
