@@ -11,14 +11,14 @@
   text-align: center;
   /* Initial hidden state */
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateY(30px);
   transition: all 0.8s ease;
 }
 
 /* Animation class added by JavaScript */
 .text.animate {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 @keyframes slideInLeft {
@@ -69,15 +69,6 @@
   height: auto;
   object-fit: cover;
   opacity: 0.9;
-  /* Subtle hover effect */
-  transition:
-    transform 0.3s ease,
-    opacity 0.3s ease;
-}
-
-.photo img:hover {
-  transform: scale(1.02);
-  opacity: 1;
 }
 
 .operation {
@@ -96,14 +87,14 @@
   margin: 5%;
   padding: 2%;
   border: 1px solid var(--murrey);
+  background-color: rgb(235, 214, 223, 0.3);
   border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   text-align: center;
   /* Initial hidden state */
   opacity: 0;
   transform: translateY(30px);
-  transition:
-    all 0.8s ease,
-    box-shadow 0.3s ease;
+  transition: all 0.8s ease;
 }
 
 /* Animation class added by JavaScript */
@@ -121,11 +112,6 @@
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-.hours:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .row {
@@ -185,14 +171,14 @@
   padding: 2% 2% 5% 2%;
   /* Initial hidden state */
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateY(30px);
   transition: all 0.8s ease;
 }
 
 /* Animation class added by JavaScript */
 .insurance.animate {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .logo-container {
@@ -209,6 +195,46 @@
   max-height: 45px;
   height: auto;
   opacity: 1;
+}
+
+/* General animations for headings */
+h1 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.8s ease;
+}
+
+h1.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.8s ease;
+}
+
+h2.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Smooth transitions for all interactive elements - unified approach */
+button,
+a {
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -286,49 +312,4 @@
   .insurance {
     font-size: 1.2rem;
   }
-}
-
-/* General animations for headings */
-h1 {
-  opacity: 0;
-  transform: translateY(-20px);
-  transition: all 0.8s ease;
-}
-
-h1.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-h2 {
-  opacity: 0;
-  transform: translateY(-20px);
-  transition: all 0.8s ease;
-}
-
-h2.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-@keyframes fadeInDown {
-  0% {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-/* Smooth transitions for all interactive elements - unified approach */
-button,
-a {
-  transition: all 0.3s ease;
-}
-
-button:hover,
-a:hover {
-  transform: translateY(-2px);
 }
