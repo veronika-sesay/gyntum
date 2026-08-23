@@ -37,7 +37,7 @@ const App = () => {
         }, observerOptions);
         // Use MutationObserver to watch for new elements
         const mutationObserver = new MutationObserver(() => {
-            const elementsToAnimate = document.querySelectorAll(".text, .photo, .hours, .news, .insurance, .care-items, .services > .item-text, h1, h2, h3, h4");
+            const elementsToAnimate = document.querySelectorAll(".text, .photo, .hours, .news, .insurance, .care-items, .services > .item-text, .plasma-jett__text--question, .plasma-jett__img, .plasma-jett__text, .faq__item, h1, h2, h3, h4");
             elementsToAnimate.forEach((el) => {
                 if (!el.classList.contains("animate")) {
                     observer.observe(el);
@@ -50,7 +50,7 @@ const App = () => {
             subtree: true,
         });
         // Initial observation
-        const elementsToAnimate = document.querySelectorAll(".text, .photo, .hours, .news, .insurance, .care-items, .services > .item-text, h1, h2, h3, h4");
+        const elementsToAnimate = document.querySelectorAll(".text, .photo, .hours, .news, .insurance, .care-items, .services > .item-text, .plasma-jett__text--question, .plasma-jett__img, .plasma-jett__text, .faq__item, h1, h2, h3, h4");
         elementsToAnimate.forEach((el) => observer.observe(el));
         // Cleanup
         return () => {
