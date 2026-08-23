@@ -90,10 +90,6 @@ li {
 }
 
 @media (max-width: 768px) {
-  .services {
-    font-size: 0.75rem;
-  }
-
   .care {
     flex-direction: column;
     align-items: center;

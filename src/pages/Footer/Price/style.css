@@ -35,9 +35,6 @@
 }
 
 @media (max-width: 768px) {
-  .price {
-    font-size: 0.75rem;
-  }
   .price-section {
     flex: 1 1 100%;
   }

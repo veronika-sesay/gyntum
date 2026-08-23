@@ -190,11 +190,10 @@ nav a:focus {
 .nav-btn {
   width: 48px;
   height: 48px;
-  background-image: url("../../../public/img/hamburger-menu.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-position: center;
+  background-color: var(--murrey);
+  -webkit-mask: url("../../../public/img/hamburger-menu.svg") center / contain
+    no-repeat;
+  mask: url("../../../public/img/hamburger-menu.svg") center / contain no-repeat;
   margin-right: 5%;
   padding: 0;
   cursor: pointer;
@@ -216,7 +215,7 @@ nav a:focus {
 }
 
 .nav-mobile a {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--eerie-black);
   text-decoration: none;
@@ -226,25 +225,23 @@ nav a:focus {
   z-index: 98;
 }
 
+.nav-mobile a:not(.emmy-mobile):hover,
+.nav-mobile a:not(.emmy-mobile):active,
+.nav-mobile a:not(.emmy-mobile):focus {
+  color: var(--murrey);
+}
+
+.nav-mobile .emmy-mobile {
+  color: var(--off-white);
+}
+
 @media (max-width: 540px) {
   .top-row {
-    font-size: 0.5rem;
-  }
-
-  nav {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
   }
 }
 
 @media (min-width: 541px) and (max-width: 768px) {
-  .top-row {
-    font-size: 0.75rem;
-  }
-
-  nav a {
-    font-size: 1rem;
-  }
-
   .emmy a {
     margin: 0.3rem;
     font-weight: 500;
@@ -253,10 +250,14 @@ nav a:focus {
 
 @media (max-width: 768px) {
   .top-row {
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
     gap: 0.5rem;
+  }
+
+  .top-row__item {
+    flex: 1 1 auto;
   }
 
   .menu-desktop {
@@ -271,10 +272,6 @@ nav a:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .emmy a {
-    font-size: 0.75rem;
   }
 }
 

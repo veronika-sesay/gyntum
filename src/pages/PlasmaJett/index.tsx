@@ -75,7 +75,9 @@ export const PlasmaJett = (): JSX.Element => {
         </div>
         <div
           className={
-            openSection === 'how-it-works' ? 'how-it-works' : 'display-none'
+            openSection === 'how-it-works'
+              ? 'accordion-content accordion-content--open'
+              : 'accordion-content'
           }
         >
           <p>
@@ -99,7 +101,9 @@ export const PlasmaJett = (): JSX.Element => {
         </div>
         <div
           className={
-            openSection === 'indication' ? 'indication' : 'display-none'
+            openSection === 'indication'
+              ? 'accordion-content accordion-content--open'
+              : 'accordion-content'
           }
         >
           <p>
@@ -139,8 +143,8 @@ export const PlasmaJett = (): JSX.Element => {
         <div
           className={
             openSection === 'contraindication'
-              ? 'contraindication'
-              : 'display-none'
+              ? 'accordion-content accordion-content--open'
+              : 'accordion-content'
           }
         >
           <p>
@@ -175,7 +179,13 @@ export const PlasmaJett = (): JSX.Element => {
             />
           </div>
         </div>
-        <div className={openSection === 'cost' ? 'cost' : 'display-none'}>
+        <div
+          className={
+            openSection === 'cost'
+              ? 'accordion-content accordion-content--open'
+              : 'accordion-content'
+          }
+        >
           <p>
             Ošetření není hrazeno z veřejného zdravotního pojištění. Cena
             jednoho zákroku je 2 500 Kč. Za doporučený cyklus tří ošetření tedy
@@ -199,7 +209,13 @@ export const PlasmaJett = (): JSX.Element => {
             />
           </div>
         </div>
-        <div className={openSection === 'patient' ? 'patient' : 'display-none'}>
+        <div
+          className={
+            openSection === 'patient'
+              ? 'accordion-content accordion-content--open'
+              : 'accordion-content'
+          }
+        >
           <p>
             Ne, ošetření je možno provést i klientkám jiných ambulancí, bez
             nutnosti přeregistrovat se.

@@ -80,7 +80,7 @@ export const Navigation = (): JSX.Element => {
               Kontakty
             </Link> */}
             <a
-              className="emmy"
+              className="emmy emmy-mobile"
               href="https://v3.smartmedix.net/?reg=1783801"
               target="_blank"
               rel="noopener noreferrer"
