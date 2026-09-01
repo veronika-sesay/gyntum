@@ -6,7 +6,7 @@ export const news = [
         title: "Dovolená a provoz v září 2026",
         body: (_jsxs(_Fragment, { children: [_jsx("p", { children: "B\u011Bhem letn\u00EDch pr\u00E1zdnin a v z\u00E1\u0159\u00ED kon\u010D\u00ED pracovn\u00ED doba v pond\u011Bl\u00ED ji\u017E v 16:00." }), _jsx("h3", { children: "Dovolen\u00E1:" }), _jsx("p", { children: "31. 8.-4. 9. 2026" }), _jsxs("p", { children: ["S akutn\u00EDmi p\u0159\u00EDpady pros\u00EDm nav\u0161tivte Gynekologicko-porodnick\u00E9 odd\u011Blen\u00ED Nemocnice T\u00E1bor (ambulance tel.:", " ", _jsx("a", { href: "tel:381605362", children: "381\u00A0605\u00A0362" }), ",", " ", _jsx("a", { href: "tel:381605363", children: "381\u00A0605\u00A0363" }), ")."] }), _jsx("p", { children: _jsx("strong", { children: "D\u011Bkujeme za pochopen\u00ED a p\u0159ejeme kr\u00E1sn\u00E9 l\u00E9to!" }) })] })),
         modal: undefined,
-        expiryDate: "2026-08-31T23:59:59Z",
+        expiryDate: "2026-09-30T23:59:59Z",
     },
     {
         id: 1,
