@@ -34,7 +34,7 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: "2026-08-31T23:59:59Z",
+    expiryDate: "2026-09-30T23:59:59Z",
   },
   {
     id: 1,
