@@ -1,5 +1,5 @@
-import './style.css';
-import { useState } from 'react';
+import "./style.css";
+import { useState } from "react";
 
 export const PlasmaJett = (): JSX.Element => {
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -21,7 +21,12 @@ export const PlasmaJett = (): JSX.Element => {
         </div>
         <div className="plasma-jett flex">
           <div className="plasma-jett__img">
-            <img src="../../img/plasma-jett.png" alt="plasma jett přístroj" />
+            <img
+              src="../../img/plasma-jett.webp"
+              alt="plasma jett přístroj"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div className="plasma-jett__text">
             <div className="heading-box">
@@ -69,15 +74,15 @@ export const PlasmaJett = (): JSX.Element => {
               className="arrow"
               src="../../img/arrow-down-icon.svg"
               alt="šipka - otevřít"
-              onClick={() => toggleAccordion('how-it-works')}
+              onClick={() => toggleAccordion("how-it-works")}
             />
           </div>
         </div>
         <div
           className={
-            openSection === 'how-it-works'
-              ? 'accordion-content accordion-content--open'
-              : 'accordion-content'
+            openSection === "how-it-works"
+              ? "accordion-content accordion-content--open"
+              : "accordion-content"
           }
         >
           <p>
@@ -85,7 +90,7 @@ export const PlasmaJett = (): JSX.Element => {
             membrány a nízkoprahové reverzibilní extrapolace. Působení
             stejnosměrného proudu generuje teplo, které aktivuje tvorbu nového
             kolagenního vaziva, vytváří se pevnější a elastičtější vazivová
-            struktura a dochází k rejuvenilizaci tkáně.{' '}
+            struktura a dochází k rejuvenilizaci tkáně.{" "}
           </p>
         </div>
         <div className="faq__item flex">
@@ -95,15 +100,15 @@ export const PlasmaJett = (): JSX.Element => {
               className="arrow"
               src="../../img/arrow-down-icon.svg"
               alt="šipka - otevřít"
-              onClick={() => toggleAccordion('indication')}
+              onClick={() => toggleAccordion("indication")}
             />
           </div>
         </div>
         <div
           className={
-            openSection === 'indication'
-              ? 'accordion-content accordion-content--open'
-              : 'accordion-content'
+            openSection === "indication"
+              ? "accordion-content accordion-content--open"
+              : "accordion-content"
           }
         >
           <p>
@@ -136,15 +141,15 @@ export const PlasmaJett = (): JSX.Element => {
               className="arrow"
               src="../../img/arrow-down-icon.svg"
               alt="šipka - otevřít"
-              onClick={() => toggleAccordion('contraindication')}
+              onClick={() => toggleAccordion("contraindication")}
             />
           </div>
         </div>
         <div
           className={
-            openSection === 'contraindication'
-              ? 'accordion-content accordion-content--open'
-              : 'accordion-content'
+            openSection === "contraindication"
+              ? "accordion-content accordion-content--open"
+              : "accordion-content"
           }
         >
           <p>
@@ -175,15 +180,15 @@ export const PlasmaJett = (): JSX.Element => {
               className="arrow"
               src="../../img/arrow-down-icon.svg"
               alt="šipka - otevřít"
-              onClick={() => toggleAccordion('cost')}
+              onClick={() => toggleAccordion("cost")}
             />
           </div>
         </div>
         <div
           className={
-            openSection === 'cost'
-              ? 'accordion-content accordion-content--open'
-              : 'accordion-content'
+            openSection === "cost"
+              ? "accordion-content accordion-content--open"
+              : "accordion-content"
           }
         >
           <p>
@@ -205,15 +210,15 @@ export const PlasmaJett = (): JSX.Element => {
               className="arrow"
               src="../../img/arrow-down-icon.svg"
               alt="šipka - otevřít"
-              onClick={() => toggleAccordion('patient')}
+              onClick={() => toggleAccordion("patient")}
             />
           </div>
         </div>
         <div
           className={
-            openSection === 'patient'
-              ? 'accordion-content accordion-content--open'
-              : 'accordion-content'
+            openSection === "patient"
+              ? "accordion-content accordion-content--open"
+              : "accordion-content"
           }
         >
           <p>

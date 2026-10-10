@@ -215,7 +215,7 @@ nav a:focus {
 }
 
 .nav-mobile a {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 500;
   color: var(--eerie-black);
   text-decoration: none;
@@ -237,11 +237,23 @@ nav a:focus {
 
 @media (max-width: 540px) {
   .top-row {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
+  }
+
+  nav {
+    font-size: 0.5rem;
   }
 }
 
 @media (min-width: 541px) and (max-width: 768px) {
+  .top-row {
+    font-size: 0.75rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
   .emmy a {
     margin: 0.3rem;
     font-weight: 500;
@@ -272,6 +284,10 @@ nav a:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .emmy a {
+    font-size: 0.75rem;
   }
 }
 
