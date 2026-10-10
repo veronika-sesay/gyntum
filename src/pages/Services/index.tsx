@@ -22,7 +22,12 @@ export const Services = (): JSX.Element => {
         <div className="care">
           <div className="care-items">
             <div className="main-blue item-img">
-              <img src="../../img/doctor-hand.svg" alt="obrázek doktora" />
+              <img
+                src="../../img/doctor-hand.webp"
+                alt="obrázek doktora"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <div className="item-text">
               {" "}
@@ -96,7 +101,12 @@ export const Services = (): JSX.Element => {
           </div>
           <div className="care-items">
             <div className="main-blue item-img">
-              <img src="../../img/pregnant-woman.svg" alt="těhotná žena" />
+              <img
+                src="../../img/pregnant-woman.webp"
+                alt="těhotná žena"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <div className="item-text">
               <h2>Péče o těhotné</h2>
@@ -137,7 +147,12 @@ export const Services = (): JSX.Element => {
           </div>
           <div className="care-items">
             <div className="main-blue item-img">
-              <img src="../../img/plasma-jett.png" alt="plasma jett přístroj" />
+              <img
+                src="../../img/plasma-jett.webp"
+                alt="plasma jett přístroj"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <div className="item-text">
               <h2>Nadstandardní služby</h2>

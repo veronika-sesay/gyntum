@@ -87,7 +87,7 @@
   margin: 5%;
   padding: 2%;
   border: 1px solid var(--murrey);
-  background-color: rgb(235, 214, 223, 0.3);
+  background-color: hsl(330, 80%, 90%, 0.3);
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   text-align: center;

@@ -11,15 +11,16 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 0,
-    title: "Dovolená a provoz v září 2026",
+    title: "Nepřítomnost v říjnu",
     body: (
       <>
+        <p>V těchto dnech neordinujeme:</p>
         <p>
-          Během letních prázdnin a v září končí pracovní doba v pondělí již v
-          16:00.
+          <strong>13. 10. 2026</strong>
         </p>
-        <h3>Dovolená:</h3>
-        <p>31. 8.-4. 9. 2026</p>
+        <p>
+          <strong>19.-21. 10. 2026</strong>
+        </p>
         <p>
           S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
           Nemocnice Tábor (ambulance tel.:{" "}
@@ -29,12 +30,12 @@ export const news: NewsItem[] = [
         {/* <a href="https://gynportabor.cz/">MUDr. Čmuchovou</a> (ordinace v
           Zubatce, Kpt. Jaroše&nbsp;2876)  */}
         <p>
-          <strong>Děkujeme za pochopení a přejeme krásné léto!</strong>
+          <strong>Děkujeme za pochopení!</strong>
         </p>
       </>
     ),
     modal: undefined,
-    expiryDate: "2026-09-30T23:59:59Z",
+    expiryDate: "2026-10-31T23:59:59Z",
   },
   {
     id: 1,

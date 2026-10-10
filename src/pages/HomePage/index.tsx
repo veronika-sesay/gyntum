@@ -22,7 +22,11 @@ export const HomePage = (): JSX.Element => {
           </p>
         </div>
         <div className="photo">
-          <img src="../../img/main-image-nobg.png" alt="foto ženy" />
+          <img
+            src="../../img/main-image-nobg.webp"
+            alt="foto ženy"
+            decoding="async"
+          />
         </div>
       </div>
       <div className="main-blue flex container operation">
@@ -31,7 +35,7 @@ export const HomePage = (): JSX.Element => {
           <div className="row">
             <h4>Pondělí</h4>
             <p>10:00 - 12:30</p>
-            <p>13:00 - 16:00</p>
+            <p>13:00 - 18:00</p>
           </div>
           <div className="row">
             <h4>Úterý</h4>
@@ -90,11 +94,36 @@ export const HomePage = (): JSX.Element => {
           </ul>
         </div>
         <div className="logo-container flex">
-          <img src="../../img/111.png" alt="VZP" />
-          <img src="../../img/201.png" alt="VoZP" />
-          <img src="../../img/205.png" alt="ČPZP" />
-          <img src="../../img/207.png" alt="OZP" />
-          <img src="../../img/211.png" alt="ZPMV" />
+          <img
+            src="../../img/111.png"
+            alt="VZP"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="../../img/201.png"
+            alt="VoZP"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="../../img/205.png"
+            alt="ČPZP"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="../../img/207.png"
+            alt="OZP"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="../../img/211.png"
+            alt="ZPMV"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <h3>V současné době stále přijímáme nové pacientky.</h3>
       </div>

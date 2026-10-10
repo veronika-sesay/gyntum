@@ -1,15 +1,15 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 /// <reference types="vite/client" />
-import './style.css';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
-import { useState, useEffect, useRef } from 'react';
-const libraries = ['marker'];
+import "./style.css";
+import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import { useState, useEffect, useRef } from "react";
+const libraries = ["marker"];
 export const Map = () => {
     const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
     const mapId = import.meta.env.VITE_GOOGLE_MAP_ID;
     const mapContainerStyle = {
-        width: '100%',
-        height: '300px',
+        width: "100%",
+        height: "300px",
     };
     const center = {
         lat: 49.419395422989965,
@@ -17,36 +17,52 @@ export const Map = () => {
     };
     const [map, setMap] = useState(null);
     const markerRef = useRef(null);
+    const [shouldLoad, setShouldLoad] = useState(false);
+    const containerRef = useRef(null);
+    // Start loading the Google Maps script only when the map section
+    // is about to scroll into view (saves hundreds of KB of JS on initial load)
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                setShouldLoad(true);
+                observer.disconnect();
+            }
+        }, { rootMargin: "200px" });
+        if (containerRef.current) {
+            observer.observe(containerRef.current);
+        }
+        return () => observer.disconnect();
+    }, []);
     useEffect(() => {
         if (map && !markerRef.current) {
             const loadMarkerLibrary = async () => {
-                const markerLibrary = (await google.maps.importLibrary('marker'));
+                const markerLibrary = (await google.maps.importLibrary("marker"));
                 const { AdvancedMarkerElement } = markerLibrary;
                 if (AdvancedMarkerElement) {
                     // Create the AdvancedMarkerElement once it's loaded
                     markerRef.current = new AdvancedMarkerElement({
                         position: center,
                         map: map,
-                        title: 'Gynekologie MUDr. Jana Tůmová',
+                        title: "Gynekologie MUDr. Jana Tůmová",
                     });
                 }
                 else {
-                    console.error('AdvancedMarkerElement could not be loaded.');
+                    console.error("AdvancedMarkerElement could not be loaded.");
                 }
             };
             loadMarkerLibrary();
         }
     }, [map]);
-    return (_jsx(LoadScript, { libraries: libraries, googleMapsApiKey: apiKey || '', version: "weekly" // Use the latest version of the API
-        , children: _jsx(GoogleMap, { mapContainerStyle: mapContainerStyle, center: center, zoom: 15, onLoad: (mapInstance) => {
-                setMap(mapInstance);
-                if (mapId) {
-                    mapInstance.setOptions({
-                        mapId: mapId,
-                    });
-                }
-                else {
-                    console.error('Map ID is undefined!');
-                }
-            } }) }));
+    return (_jsx("div", { ref: containerRef, style: { minHeight: "300px" }, children: shouldLoad && (_jsx(LoadScript, { libraries: libraries, googleMapsApiKey: apiKey || "", version: "weekly" // Use the latest version of the API
+            , children: _jsx(GoogleMap, { mapContainerStyle: mapContainerStyle, center: center, zoom: 15, onLoad: (mapInstance) => {
+                    setMap(mapInstance);
+                    if (mapId) {
+                        mapInstance.setOptions({
+                            mapId: mapId,
+                        });
+                    }
+                    else {
+                        console.error("Map ID is undefined!");
+                    }
+                } }) })) }));
 };
