@@ -11,15 +11,12 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     id: 0,
-    title: "Nepřítomnost v říjnu",
+    title: "27. 11. 2026 neordinujeme",
     body: (
       <>
-        <p>V těchto dnech neordinujeme:</p>
         <p>
-          <strong>13. 10. 2026</strong>
-        </p>
-        <p>
-          <strong>19.-21. 10. 2026</strong>
+          V pátek 27. 11. 2026 neordinujeme z důvodu účasti na lékařském
+          kongresu.
         </p>
         <p>
           S akutními případy prosím navštivte Gynekologicko-porodnické oddělení
@@ -35,7 +32,7 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: "2026-10-31T23:59:59Z",
+    expiryDate: "2026-11-27T23:59:59Z",
   },
   {
     id: 1,
@@ -47,10 +44,9 @@ export const news: NewsItem[] = [
           následovně:
         </p>
         <ul style={{ textAlign: "left", fontWeight: "bold" }}>
-          <li>22. 12. 2025: 8:00 - 16:00</li>
-          <li>23. 12. 2025 - 26. 12. 2025: neordinujeme</li>
-          <li>29. - 30. 12. 2025: 8:00 - 16:00</li>
-          <li>31. 12. 2025 - 2. 1. 2026: neordinujeme</li>
+          <li>21. 12. 2026: 8:00 - 16:00</li>
+          <li>22. 12. 2026: pouze pro objednané pacientky</li>
+          <li>23. 12. 2026 - 1. 1. 2027: dovolená</li>
         </ul>
         <p>
           S akutními případy mimo upravenou ordinační dobu prosím navštivte
@@ -72,7 +68,7 @@ export const news: NewsItem[] = [
       </>
     ),
     modal: undefined,
-    expiryDate: "2026-01-02T23:59:59Z",
+    expiryDate: "2027-01-01T23:59:59Z",
   },
   {
     id: 3,

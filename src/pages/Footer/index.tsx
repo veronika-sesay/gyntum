@@ -37,7 +37,17 @@ export const Footer = (): JSX.Element => {
       <section className="footer__copyright container">
         <div>
           <p>&copy; {currentYear} Gyntum. Všechna práva vyhrazena.</p>
-          <p>Vytvořila Veronika Sesay</p>
+          <p>
+            Vytvořila{" "}
+            <a
+              href="https://veronikasesay.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "var(--verdigris)" }}
+            >
+              Veronika Sesay
+            </a>
+          </p>
         </div>
       </section>
     </footer>
